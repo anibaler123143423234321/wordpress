@@ -1,0 +1,3792 @@
+11-03-2023 @ 06:22:07 - [process_payment]: customer being redirected to Mercado Pago.
+11-03-2023 @ 06:22:07 - [get_transaction]: Preference: {
+    "additional_info": {
+        "ip_address": null,
+        "referral_url": null,
+        "drop_shipping": null,
+        "delivery_promise": null,
+        "contrated_plan": null,
+        "payer": {
+            "first_name": null,
+            "last_name": null,
+            "registration_date": null,
+            "registered_user": null,
+            "device_id": null,
+            "platform_email": null,
+            "register_updated_at": null,
+            "user_email": null,
+            "authentication_type": null,
+            "last_purchase": null,
+            "address": {
+                "street_name": null,
+                "zip_code": null,
+                "city": null,
+                "country": null,
+                "state": null,
+                "number": null,
+                "complement": null,
+                "apartment": null,
+                "floor": null
+            },
+            "phone": {
+                "number": null,
+                "area_code": null
+            },
+            "mobile": {
+                "number": null,
+                "area_code": null
+            },
+            "identification": {
+                "type": null,
+                "number": null
+            }
+        },
+        "seller": {
+            "id": null,
+            "registration_date": null,
+            "business_type": null,
+            "status": null,
+            "store_id": null,
+            "user_platform_mail": null,
+            "email": null,
+            "collector": null,
+            "website": null,
+            "platform_url": null,
+            "referral_url": null,
+            "register_updated_at": null,
+            "document": null,
+            "name": null,
+            "hired_plan": null,
+            "identification": {
+                "type": null,
+                "number": null
+            },
+            "phone": {
+                "number": null,
+                "area_code": null
+            },
+            "address": {
+                "street_name": null,
+                "zip_code": null,
+                "city": null,
+                "country": null,
+                "state": null,
+                "number": null,
+                "complement": null,
+                "apartment": null,
+                "floor": null
+            }
+        },
+        "shipments": {
+            "delivery_promise": null,
+            "drop_shipping": null,
+            "local_pickup": null,
+            "express_shipment": null,
+            "safety": null,
+            "withdrawn": null,
+            "tracking": {
+                "code": null,
+                "status": null
+            },
+            "receiver_address": {
+                "street_name": null,
+                "zip_code": null,
+                "city": null,
+                "country": null,
+                "state": null,
+                "number": null,
+                "complement": null,
+                "apartment": null,
+                "floor": null
+            }
+        }
+    },
+    "auto_return": "approved",
+    "binary_mode": false,
+    "expiration_date_from": null,
+    "expiration_date_to": null,
+    "expires": null,
+    "external_reference": "WC-24",
+    "notification_url": "http:\/\/wordpress.test\/wc-api\/WC_WooMercadoPago_Basic_Gateway\/?source_news=ipn",
+    "purpose": null,
+    "statement_descriptor": "Mercado Pago",
+    "items": [
+        {
+            "id": 15,
+            "title": "Ropa x 1",
+            "description": "Remera-lisa-de-color-negro-en-diferentes-talles",
+            "picture_url": "http:\/\/wordpress.test\/wp-content\/uploads\/2023\/11\/REMERA.png",
+            "category_id": "others",
+            "quantity": 1,
+            "currency_id": "PEN",
+            "unit_price": 90
+        }
+    ],
+    "payment_methods": {
+        "default_payment_method_id": null,
+        "default_installments": null,
+        "installments": 2
+    },
+    "back_urls": {
+        "failure": "http:\/\/wordpress.test\/carrito\/?cancel_order=true&order=wc_order_CNgcAaAJod7mp&order_id=24&redirect&_wpnonce=dca8105eb9",
+        "pending": "http:\/\/wordpress.test\/finalizar-compra\/order-received\/24\/?key=wc_order_CNgcAaAJod7mp",
+        "success": "http:\/\/wordpress.test\/finalizar-compra\/order-received\/24\/?key=wc_order_CNgcAaAJod7mp"
+    },
+    "payer": {
+        "entity_type": null,
+        "type": null,
+        "id": null,
+        "email": "dagner_smooth@outlook.com",
+        "identification": {
+            "type": null,
+            "number": null
+        },
+        "name": "Dagner",
+        "surname": "Chuman",
+        "operator_id": null,
+        "address": {
+            "street_name": "Algodonal \/ Ferreñafe LAM PE",
+            "street_number": null,
+            "neighborhood": null,
+            "city": null,
+            "federal_unit": null,
+            "zip_code": "14000"
+        },
+        "phone": {
+            "area_code": null,
+            "number": "958875176"
+        },
+        "date_created": null
+    },
+    "shipments": {
+        "default_shipping_method": null,
+        "receiver_address": {
+            "zip_code": "14000",
+            "street_name": "Algodonal  Ferreñafe LAM PE",
+            "city_name": "Ferreñafe",
+            "state_name": "LAM",
+            "street_number": null,
+            "floor": null,
+            "apartment": ""
+        },
+        "cost": null,
+        "dimensions": null,
+        "free_shipping": null,
+        "local_pickup": null,
+        "mode": null
+    },
+    "metadata": {
+        "platform": "bo2hnr2ic4p001kbgpt0",
+        "platform_version": "8.2.1",
+        "module_version": "6.9.3",
+        "php_version": "8.1.10",
+        "site_id": "mpe",
+        "sponsor_id": 216998692,
+        "collector": "1362009890",
+        "test_mode": true,
+        "details": "",
+        "basic_settings": {
+            "enabled": "yes",
+            "currency_conversion": "no",
+            "installments": "2",
+            "method": "redirect",
+            "auto_return": "yes",
+            "binary_mode": "no",
+            "ex_payments_amex": "yes",
+            "ex_payments_master": "yes",
+            "ex_payments_diners": "yes",
+            "ex_payments_visa": "yes",
+            "ex_payments_debmaster": "yes",
+            "ex_payments_debvisa": "yes",
+            "ex_payments_pagoefectivo_atm": "yes",
+            "gateway_discount_checkbox": "no",
+            "commission_checkbox": "no",
+            "checkbox_checkout_test_mode": "yes",
+            "checkout_credential_prod": "deprecated"
+        },
+        "custom_settings": [],
+        "ticket_settings": [],
+        "pix_settings": [],
+        "credits_settings": [],
+        "seller_website": "http:\/\/wordpress.test",
+        "billing_address": {
+            "zip_code": "14000",
+            "street_name": "Algodonal",
+            "city_name": "Ferreñafe",
+            "state_name": "LAM",
+            "country_name": "PE"
+        },
+        "user": {
+            "registered_user": "yes",
+            "user_email": "dagner_smooth@outlook.com",
+            "user_registration_date": "2023-11-02T21:28:06.000+00:00"
+        },
+        "checkout": "smart",
+        "checkout_type": "redirect"
+    },
+    "date_of_expiration": null,
+    "differential_pricing": null,
+    "marketplace": null,
+    "marketplace_fee": null,
+    "sponsor_id": null
+}
+11-03-2023 @ 06:22:11 - [create_preference]: Created Preference: {
+    "id": "1362009890-967280fd-1e57-48db-8c01-98471ccb8e59",
+    "collector_id": 1362009890,
+    "operation_type": "regular_payment",
+    "items": [
+        {
+            "id": "15",
+            "picture_url": "https:\/\/http2.mlstatic.com\/D_NQ_NP_758278-MPE72652025715_112023-F.jpg",
+            "title": "Ropa x 1",
+            "description": "Remera-lisa-de-color-negro-en-diferentes-talles",
+            "category_id": "others",
+            "currency_id": "PEN",
+            "quantity": 1,
+            "unit_price": 90
+        }
+    ],
+    "payer": {
+        "name": "Dagner",
+        "surname": "Chuman",
+        "email": "dagner_smooth@outlook.com",
+        "phone": {
+            "area_code": "",
+            "number": "958875176"
+        },
+        "identification": {
+            "number": "",
+            "type": ""
+        },
+        "address": {
+            "street_name": "Algodonal  Ferreñafe LAM PE",
+            "zip_code": "14000"
+        }
+    },
+    "back_urls": {
+        "success": "http:\/\/wordpress.test\/finalizar-compra\/order-received\/24\/?key=wc_order_CNgcAaAJod7mp",
+        "pending": "http:\/\/wordpress.test\/finalizar-compra\/order-received\/24\/?key=wc_order_CNgcAaAJod7mp",
+        "failure": "http:\/\/wordpress.test\/carrito\/?cancel_order=true&order=wc_order_CNgcAaAJod7mp&order_id=24&redirect&_wpnonce=dca8105eb9"
+    },
+    "auto_return": "approved",
+    "payment_methods": {
+        "excluded_payment_methods": [
+            {
+                "id": ""
+            }
+        ],
+        "excluded_payment_types": [
+            {
+                "id": ""
+            }
+        ],
+        "installments": 2
+    },
+    "client_id": "1951075464327715",
+    "marketplace": "NONE",
+    "marketplace_fee": 0,
+    "shipments": {
+        "receiver_address": {
+            "zip_code": "14000",
+            "street_name": "Algodonal  Ferreñafe LAM PE",
+            "floor": "",
+            "apartment": "",
+            "city_name": "Ferreñafe",
+            "state_name": "LAM"
+        }
+    },
+    "notification_url": "http:\/\/internal.mercadopago.com\/v1\/bifrost\/merchant-order-notification\/webhook\/production?source_news=ipn&notify_all=false",
+    "statement_descriptor": "Mercado Pago",
+    "external_reference": "WC-24",
+    "additional_info": "{\"items\":null,\"ip_address\":null,\"referral_url\":null,\"drop_shipping\":null,\"delivery_promise\":null,\"contrated_plan\":null,\"payer\":{\"first_name\":null,\"last_name\":null,\"phone\":{\"number\":null,\"area_code\":null},\"registration_date\":null,\"address\":{\"zip_code\":null,\"street_name\":null,\"street_number\":null}},\"shipments\":{\"receiver_address\":{\"zip_code\":null,\"state_name\":null,\"city_name\":null,\"street_name\":null,\"street_number\":null,\"floor\":null,\"apartment\":null}}}",
+    "expires": false,
+    "date_created": "2023-11-03T01:22:09.991-04:00",
+    "init_point": "https:\/\/www.mercadopago.com.pe\/checkout\/v1\/redirect?pref_id=1362009890-967280fd-1e57-48db-8c01-98471ccb8e59",
+    "sandbox_init_point": "https:\/\/sandbox.mercadopago.com.pe\/checkout\/v1\/redirect?pref_id=1362009890-967280fd-1e57-48db-8c01-98471ccb8e59",
+    "metadata": {
+        "basic_settings": {
+            "auto_return": "yes",
+            "binary_mode": "no",
+            "checkbox_checkout_test_mode": "yes",
+            "checkout_credential_prod": "deprecated",
+            "commission_checkbox": "no",
+            "currency_conversion": "no",
+            "enabled": "yes",
+            "ex_payments_amex": "yes",
+            "ex_payments_debmaster": "yes",
+            "ex_payments_debvisa": "yes",
+            "ex_payments_diners": "yes",
+            "ex_payments_master": "yes",
+            "ex_payments_pagoefectivo_atm": "yes",
+            "ex_payments_visa": "yes",
+            "gateway_discount_checkbox": "no",
+            "installments": "2",
+            "method": "redirect"
+        },
+        "billing_address": {
+            "city_name": "Ferreñafe",
+            "country_name": "PE",
+            "state_name": "LAM",
+            "street_name": "Algodonal",
+            "zip_code": "14000"
+        },
+        "checkout": "smart",
+        "checkout_type": "redirect",
+        "collector": "1362009890",
+        "credits_settings": [],
+        "custom_settings": [],
+        "details": "",
+        "module_version": "6.9.3",
+        "original_notification_url": "http:\/\/wordpress.test\/wc-api\/WC_WooMercadoPago_Basic_Gateway\/?source_news=ipn",
+        "php_version": "8.1.10",
+        "pix_settings": [],
+        "platform": "bo2hnr2ic4p001kbgpt0",
+        "platform_version": "8.2.1",
+        "seller_website": "http:\/\/wordpress.test",
+        "site_id": "mpe",
+        "sponsor_id": 216998692,
+        "test_mode": true,
+        "ticket_settings": [],
+        "user": {
+            "registered_user": "yes",
+            "user_email": "dagner_smooth@outlook.com",
+            "user_registration_date": "2023-11-02T21:28:06.000+00:00"
+        }
+    },
+    "binary_mode": false,
+    "product_id": "BT7OF5FEOO6G01NJK3QG",
+    "redirect_urls": {
+        "success": "",
+        "pending": "",
+        "failure": ""
+    },
+    "site_id": "MPE",
+    "total_amount": "90"
+}
+11-03-2023 @ 06:24:20 - [process_payment]: customer being redirected to Mercado Pago.
+11-03-2023 @ 06:24:20 - [get_transaction]: Preference: {
+    "additional_info": {
+        "ip_address": null,
+        "referral_url": null,
+        "drop_shipping": null,
+        "delivery_promise": null,
+        "contrated_plan": null,
+        "payer": {
+            "first_name": null,
+            "last_name": null,
+            "registration_date": null,
+            "registered_user": null,
+            "device_id": null,
+            "platform_email": null,
+            "register_updated_at": null,
+            "user_email": null,
+            "authentication_type": null,
+            "last_purchase": null,
+            "address": {
+                "street_name": null,
+                "zip_code": null,
+                "city": null,
+                "country": null,
+                "state": null,
+                "number": null,
+                "complement": null,
+                "apartment": null,
+                "floor": null
+            },
+            "phone": {
+                "number": null,
+                "area_code": null
+            },
+            "mobile": {
+                "number": null,
+                "area_code": null
+            },
+            "identification": {
+                "type": null,
+                "number": null
+            }
+        },
+        "seller": {
+            "id": null,
+            "registration_date": null,
+            "business_type": null,
+            "status": null,
+            "store_id": null,
+            "user_platform_mail": null,
+            "email": null,
+            "collector": null,
+            "website": null,
+            "platform_url": null,
+            "referral_url": null,
+            "register_updated_at": null,
+            "document": null,
+            "name": null,
+            "hired_plan": null,
+            "identification": {
+                "type": null,
+                "number": null
+            },
+            "phone": {
+                "number": null,
+                "area_code": null
+            },
+            "address": {
+                "street_name": null,
+                "zip_code": null,
+                "city": null,
+                "country": null,
+                "state": null,
+                "number": null,
+                "complement": null,
+                "apartment": null,
+                "floor": null
+            }
+        },
+        "shipments": {
+            "delivery_promise": null,
+            "drop_shipping": null,
+            "local_pickup": null,
+            "express_shipment": null,
+            "safety": null,
+            "withdrawn": null,
+            "tracking": {
+                "code": null,
+                "status": null
+            },
+            "receiver_address": {
+                "street_name": null,
+                "zip_code": null,
+                "city": null,
+                "country": null,
+                "state": null,
+                "number": null,
+                "complement": null,
+                "apartment": null,
+                "floor": null
+            }
+        }
+    },
+    "auto_return": "approved",
+    "binary_mode": false,
+    "expiration_date_from": null,
+    "expiration_date_to": null,
+    "expires": null,
+    "external_reference": "WC-25",
+    "notification_url": "http:\/\/wordpress.test\/wc-api\/WC_WooMercadoPago_Basic_Gateway\/?source_news=ipn",
+    "purpose": null,
+    "statement_descriptor": "Mercado Pago",
+    "items": [
+        {
+            "id": 15,
+            "title": "Ropa x 1",
+            "description": "Remera-lisa-de-color-negro-en-diferentes-talles",
+            "picture_url": "http:\/\/wordpress.test\/wp-content\/uploads\/2023\/11\/REMERA.png",
+            "category_id": "others",
+            "quantity": 1,
+            "currency_id": "PEN",
+            "unit_price": 90
+        }
+    ],
+    "payment_methods": {
+        "default_payment_method_id": null,
+        "default_installments": null,
+        "installments": 2
+    },
+    "back_urls": {
+        "failure": "http:\/\/wordpress.test\/carrito\/?cancel_order=true&order=wc_order_9w26oRHmBdUA6&order_id=25&redirect&_wpnonce=95fe80bb5b",
+        "pending": "http:\/\/wordpress.test\/finalizar-compra\/order-received\/25\/?key=wc_order_9w26oRHmBdUA6",
+        "success": "http:\/\/wordpress.test\/finalizar-compra\/order-received\/25\/?key=wc_order_9w26oRHmBdUA6"
+    },
+    "payer": {
+        "entity_type": null,
+        "type": null,
+        "id": null,
+        "email": "dchumanlluen@gmail.com",
+        "identification": {
+            "type": null,
+            "number": null
+        },
+        "name": "Dagner",
+        "surname": "Chuman",
+        "operator_id": null,
+        "address": {
+            "street_name": "AREQUIPA MZ 3K LT. 4 \/ CHICLAYO LAM PE",
+            "street_number": null,
+            "neighborhood": null,
+            "city": null,
+            "federal_unit": null,
+            "zip_code": "14000"
+        },
+        "phone": {
+            "area_code": null,
+            "number": "958875176"
+        },
+        "date_created": null
+    },
+    "shipments": {
+        "default_shipping_method": null,
+        "receiver_address": {
+            "zip_code": "14000",
+            "street_name": "AREQUIPA MZ 3K LT. 4  CHICLAYO LAM PE",
+            "city_name": "CHICLAYO",
+            "state_name": "LAM",
+            "street_number": null,
+            "floor": null,
+            "apartment": ""
+        },
+        "cost": null,
+        "dimensions": null,
+        "free_shipping": null,
+        "local_pickup": null,
+        "mode": null
+    },
+    "metadata": {
+        "platform": "bo2hnr2ic4p001kbgpt0",
+        "platform_version": "8.2.1",
+        "module_version": "6.9.3",
+        "php_version": "8.1.10",
+        "site_id": "mpe",
+        "sponsor_id": 216998692,
+        "collector": "1362009890",
+        "test_mode": true,
+        "details": "",
+        "basic_settings": {
+            "enabled": "yes",
+            "currency_conversion": "no",
+            "installments": "2",
+            "method": "redirect",
+            "auto_return": "yes",
+            "binary_mode": "no",
+            "ex_payments_amex": "yes",
+            "ex_payments_master": "yes",
+            "ex_payments_diners": "yes",
+            "ex_payments_visa": "yes",
+            "ex_payments_debmaster": "yes",
+            "ex_payments_debvisa": "yes",
+            "ex_payments_pagoefectivo_atm": "yes",
+            "gateway_discount_checkbox": "no",
+            "commission_checkbox": "no",
+            "checkbox_checkout_test_mode": "yes",
+            "checkout_credential_prod": "deprecated"
+        },
+        "custom_settings": [],
+        "ticket_settings": [],
+        "pix_settings": [],
+        "credits_settings": [],
+        "seller_website": "http:\/\/wordpress.test",
+        "billing_address": {
+            "zip_code": "14000",
+            "street_name": "AREQUIPA MZ 3K LT. 4",
+            "city_name": "CHICLAYO",
+            "state_name": "LAM",
+            "country_name": "PE"
+        },
+        "user": {
+            "registered_user": "no",
+            "user_email": null,
+            "user_registration_date": null
+        },
+        "checkout": "smart",
+        "checkout_type": "redirect"
+    },
+    "date_of_expiration": null,
+    "differential_pricing": null,
+    "marketplace": null,
+    "marketplace_fee": null,
+    "sponsor_id": null
+}
+11-03-2023 @ 06:24:21 - [create_preference]: Created Preference: {
+    "id": "1362009890-6b706977-14b6-42a9-9a11-30d229cfa2e5",
+    "collector_id": 1362009890,
+    "operation_type": "regular_payment",
+    "items": [
+        {
+            "id": "15",
+            "picture_url": "https:\/\/http2.mlstatic.com\/D_NQ_NP_758278-MPE72652025715_112023-F.jpg",
+            "title": "Ropa x 1",
+            "description": "Remera-lisa-de-color-negro-en-diferentes-talles",
+            "category_id": "others",
+            "currency_id": "PEN",
+            "quantity": 1,
+            "unit_price": 90
+        }
+    ],
+    "payer": {
+        "name": "Dagner",
+        "surname": "Chuman",
+        "email": "dchumanlluen@gmail.com",
+        "phone": {
+            "area_code": "",
+            "number": "958875176"
+        },
+        "identification": {
+            "number": "",
+            "type": ""
+        },
+        "address": {
+            "street_name": "AREQUIPA MZ 3K LT. 4  CHICLAYO LAM PE",
+            "zip_code": "14000"
+        }
+    },
+    "back_urls": {
+        "success": "http:\/\/wordpress.test\/finalizar-compra\/order-received\/25\/?key=wc_order_9w26oRHmBdUA6",
+        "pending": "http:\/\/wordpress.test\/finalizar-compra\/order-received\/25\/?key=wc_order_9w26oRHmBdUA6",
+        "failure": "http:\/\/wordpress.test\/carrito\/?cancel_order=true&order=wc_order_9w26oRHmBdUA6&order_id=25&redirect&_wpnonce=95fe80bb5b"
+    },
+    "auto_return": "approved",
+    "payment_methods": {
+        "excluded_payment_methods": [
+            {
+                "id": ""
+            }
+        ],
+        "excluded_payment_types": [
+            {
+                "id": ""
+            }
+        ],
+        "installments": 2
+    },
+    "client_id": "1951075464327715",
+    "marketplace": "NONE",
+    "marketplace_fee": 0,
+    "shipments": {
+        "receiver_address": {
+            "zip_code": "14000",
+            "street_name": "AREQUIPA MZ 3K LT. 4  CHICLAYO LAM PE",
+            "floor": "",
+            "apartment": "",
+            "city_name": "CHICLAYO",
+            "state_name": "LAM"
+        }
+    },
+    "notification_url": "http:\/\/internal.mercadopago.com\/v1\/bifrost\/merchant-order-notification\/webhook\/production?source_news=ipn&notify_all=false",
+    "statement_descriptor": "Mercado Pago",
+    "external_reference": "WC-25",
+    "additional_info": "{\"items\":null,\"ip_address\":null,\"referral_url\":null,\"drop_shipping\":null,\"delivery_promise\":null,\"contrated_plan\":null,\"payer\":{\"first_name\":null,\"last_name\":null,\"phone\":{\"number\":null,\"area_code\":null},\"registration_date\":null,\"address\":{\"zip_code\":null,\"street_name\":null,\"street_number\":null}},\"shipments\":{\"receiver_address\":{\"zip_code\":null,\"state_name\":null,\"city_name\":null,\"street_name\":null,\"street_number\":null,\"floor\":null,\"apartment\":null}}}",
+    "expires": false,
+    "date_created": "2023-11-03T01:24:20.454-04:00",
+    "init_point": "https:\/\/www.mercadopago.com.pe\/checkout\/v1\/redirect?pref_id=1362009890-6b706977-14b6-42a9-9a11-30d229cfa2e5",
+    "sandbox_init_point": "https:\/\/sandbox.mercadopago.com.pe\/checkout\/v1\/redirect?pref_id=1362009890-6b706977-14b6-42a9-9a11-30d229cfa2e5",
+    "metadata": {
+        "basic_settings": {
+            "auto_return": "yes",
+            "binary_mode": "no",
+            "checkbox_checkout_test_mode": "yes",
+            "checkout_credential_prod": "deprecated",
+            "commission_checkbox": "no",
+            "currency_conversion": "no",
+            "enabled": "yes",
+            "ex_payments_amex": "yes",
+            "ex_payments_debmaster": "yes",
+            "ex_payments_debvisa": "yes",
+            "ex_payments_diners": "yes",
+            "ex_payments_master": "yes",
+            "ex_payments_pagoefectivo_atm": "yes",
+            "ex_payments_visa": "yes",
+            "gateway_discount_checkbox": "no",
+            "installments": "2",
+            "method": "redirect"
+        },
+        "billing_address": {
+            "city_name": "CHICLAYO",
+            "country_name": "PE",
+            "state_name": "LAM",
+            "street_name": "AREQUIPA MZ 3K LT. 4",
+            "zip_code": "14000"
+        },
+        "checkout": "smart",
+        "checkout_type": "redirect",
+        "collector": "1362009890",
+        "credits_settings": [],
+        "custom_settings": [],
+        "details": "",
+        "module_version": "6.9.3",
+        "original_notification_url": "http:\/\/wordpress.test\/wc-api\/WC_WooMercadoPago_Basic_Gateway\/?source_news=ipn",
+        "php_version": "8.1.10",
+        "pix_settings": [],
+        "platform": "bo2hnr2ic4p001kbgpt0",
+        "platform_version": "8.2.1",
+        "seller_website": "http:\/\/wordpress.test",
+        "site_id": "mpe",
+        "sponsor_id": 216998692,
+        "test_mode": true,
+        "ticket_settings": [],
+        "user": {
+            "registered_user": "no"
+        }
+    },
+    "binary_mode": false,
+    "product_id": "BT7OF5FEOO6G01NJK3QG",
+    "redirect_urls": {
+        "success": "",
+        "pending": "",
+        "failure": ""
+    },
+    "site_id": "MPE",
+    "total_amount": "90"
+}
+11-03-2023 @ 06:29:40 - [process_payment]: customer being redirected to Mercado Pago.
+11-03-2023 @ 06:29:40 - [get_transaction]: Preference: {
+    "additional_info": {
+        "ip_address": null,
+        "referral_url": null,
+        "drop_shipping": null,
+        "delivery_promise": null,
+        "contrated_plan": null,
+        "payer": {
+            "first_name": null,
+            "last_name": null,
+            "registration_date": null,
+            "registered_user": null,
+            "device_id": null,
+            "platform_email": null,
+            "register_updated_at": null,
+            "user_email": null,
+            "authentication_type": null,
+            "last_purchase": null,
+            "address": {
+                "street_name": null,
+                "zip_code": null,
+                "city": null,
+                "country": null,
+                "state": null,
+                "number": null,
+                "complement": null,
+                "apartment": null,
+                "floor": null
+            },
+            "phone": {
+                "number": null,
+                "area_code": null
+            },
+            "mobile": {
+                "number": null,
+                "area_code": null
+            },
+            "identification": {
+                "type": null,
+                "number": null
+            }
+        },
+        "seller": {
+            "id": null,
+            "registration_date": null,
+            "business_type": null,
+            "status": null,
+            "store_id": null,
+            "user_platform_mail": null,
+            "email": null,
+            "collector": null,
+            "website": null,
+            "platform_url": null,
+            "referral_url": null,
+            "register_updated_at": null,
+            "document": null,
+            "name": null,
+            "hired_plan": null,
+            "identification": {
+                "type": null,
+                "number": null
+            },
+            "phone": {
+                "number": null,
+                "area_code": null
+            },
+            "address": {
+                "street_name": null,
+                "zip_code": null,
+                "city": null,
+                "country": null,
+                "state": null,
+                "number": null,
+                "complement": null,
+                "apartment": null,
+                "floor": null
+            }
+        },
+        "shipments": {
+            "delivery_promise": null,
+            "drop_shipping": null,
+            "local_pickup": null,
+            "express_shipment": null,
+            "safety": null,
+            "withdrawn": null,
+            "tracking": {
+                "code": null,
+                "status": null
+            },
+            "receiver_address": {
+                "street_name": null,
+                "zip_code": null,
+                "city": null,
+                "country": null,
+                "state": null,
+                "number": null,
+                "complement": null,
+                "apartment": null,
+                "floor": null
+            }
+        }
+    },
+    "auto_return": "approved",
+    "binary_mode": false,
+    "expiration_date_from": null,
+    "expiration_date_to": null,
+    "expires": null,
+    "external_reference": "WC-26",
+    "notification_url": "http:\/\/wordpress.test\/wc-api\/WC_WooMercadoPago_Basic_Gateway\/?source_news=ipn",
+    "purpose": null,
+    "statement_descriptor": "Mercado Pago",
+    "items": [
+        {
+            "id": 15,
+            "title": "Ropa x 1",
+            "description": "Remera-lisa-de-color-negro-en-diferentes-talles",
+            "picture_url": "http:\/\/wordpress.test\/wp-content\/uploads\/2023\/11\/REMERA.png",
+            "category_id": "others",
+            "quantity": 1,
+            "currency_id": "PEN",
+            "unit_price": 90
+        },
+        {
+            "id": null,
+            "title": "Precio fijo por Envio",
+            "description": "Servicio de envío utilizado por la tienda.",
+            "picture_url": null,
+            "category_id": "others",
+            "quantity": 1,
+            "currency_id": null,
+            "unit_price": 12
+        }
+    ],
+    "payment_methods": {
+        "default_payment_method_id": null,
+        "default_installments": null,
+        "installments": 2
+    },
+    "back_urls": {
+        "failure": "http:\/\/wordpress.test\/carrito\/?cancel_order=true&order=wc_order_zRsUYZSddknSO&order_id=26&redirect&_wpnonce=5642a03a1e",
+        "pending": "http:\/\/wordpress.test\/finalizar-compra\/order-received\/26\/?key=wc_order_zRsUYZSddknSO",
+        "success": "http:\/\/wordpress.test\/finalizar-compra\/order-received\/26\/?key=wc_order_zRsUYZSddknSO"
+    },
+    "payer": {
+        "entity_type": null,
+        "type": null,
+        "id": null,
+        "email": "dchumanlluen@gmail.com",
+        "identification": {
+            "type": null,
+            "number": null
+        },
+        "name": "Dagner",
+        "surname": "Chuman",
+        "operator_id": null,
+        "address": {
+            "street_name": "AREQUIPA MZ 3K LT. 4 \/ CHICLAYO LAM PE",
+            "street_number": null,
+            "neighborhood": null,
+            "city": null,
+            "federal_unit": null,
+            "zip_code": "14000"
+        },
+        "phone": {
+            "area_code": null,
+            "number": "958875176"
+        },
+        "date_created": null
+    },
+    "shipments": {
+        "default_shipping_method": null,
+        "receiver_address": {
+            "zip_code": "14000",
+            "street_name": "AREQUIPA MZ 3K LT. 4  CHICLAYO LAM PE",
+            "city_name": "CHICLAYO",
+            "state_name": "LAM",
+            "street_number": null,
+            "floor": null,
+            "apartment": ""
+        },
+        "cost": null,
+        "dimensions": null,
+        "free_shipping": null,
+        "local_pickup": null,
+        "mode": null
+    },
+    "metadata": {
+        "platform": "bo2hnr2ic4p001kbgpt0",
+        "platform_version": "8.2.1",
+        "module_version": "6.9.3",
+        "php_version": "8.1.10",
+        "site_id": "mpe",
+        "sponsor_id": 216998692,
+        "collector": "1362009890",
+        "test_mode": true,
+        "details": "",
+        "basic_settings": {
+            "enabled": "yes",
+            "currency_conversion": "no",
+            "installments": "2",
+            "method": "redirect",
+            "auto_return": "yes",
+            "binary_mode": "no",
+            "ex_payments_amex": "yes",
+            "ex_payments_master": "yes",
+            "ex_payments_diners": "yes",
+            "ex_payments_visa": "yes",
+            "ex_payments_debmaster": "yes",
+            "ex_payments_debvisa": "yes",
+            "ex_payments_pagoefectivo_atm": "yes",
+            "gateway_discount_checkbox": "no",
+            "commission_checkbox": "no",
+            "checkbox_checkout_test_mode": "yes",
+            "checkout_credential_prod": "deprecated"
+        },
+        "custom_settings": [],
+        "ticket_settings": [],
+        "pix_settings": [],
+        "credits_settings": [],
+        "seller_website": "http:\/\/wordpress.test",
+        "billing_address": {
+            "zip_code": "14000",
+            "street_name": "AREQUIPA MZ 3K LT. 4",
+            "city_name": "CHICLAYO",
+            "state_name": "LAM",
+            "country_name": "PE"
+        },
+        "user": {
+            "registered_user": "no",
+            "user_email": null,
+            "user_registration_date": null
+        },
+        "checkout": "smart",
+        "checkout_type": "redirect"
+    },
+    "date_of_expiration": null,
+    "differential_pricing": null,
+    "marketplace": null,
+    "marketplace_fee": null,
+    "sponsor_id": null
+}
+11-03-2023 @ 06:29:40 - [create_preference]: Created Preference: {
+    "id": "1362009890-66f73dec-94f7-40c1-935a-c442a954d919",
+    "collector_id": 1362009890,
+    "operation_type": "regular_payment",
+    "items": [
+        {
+            "id": "15",
+            "picture_url": "https:\/\/http2.mlstatic.com\/D_NQ_NP_758278-MPE72652025715_112023-F.jpg",
+            "title": "Ropa x 1",
+            "description": "Remera-lisa-de-color-negro-en-diferentes-talles",
+            "category_id": "others",
+            "currency_id": "PEN",
+            "quantity": 1,
+            "unit_price": 90
+        },
+        {
+            "id": "",
+            "title": "Precio fijo por Envio",
+            "description": "Servicio de envío utilizado por la tienda.",
+            "category_id": "others",
+            "currency_id": "PEN",
+            "quantity": 1,
+            "unit_price": 12
+        }
+    ],
+    "payer": {
+        "name": "Dagner",
+        "surname": "Chuman",
+        "email": "dchumanlluen@gmail.com",
+        "phone": {
+            "area_code": "",
+            "number": "958875176"
+        },
+        "identification": {
+            "number": "",
+            "type": ""
+        },
+        "address": {
+            "street_name": "AREQUIPA MZ 3K LT. 4  CHICLAYO LAM PE",
+            "zip_code": "14000"
+        }
+    },
+    "back_urls": {
+        "success": "http:\/\/wordpress.test\/finalizar-compra\/order-received\/26\/?key=wc_order_zRsUYZSddknSO",
+        "pending": "http:\/\/wordpress.test\/finalizar-compra\/order-received\/26\/?key=wc_order_zRsUYZSddknSO",
+        "failure": "http:\/\/wordpress.test\/carrito\/?cancel_order=true&order=wc_order_zRsUYZSddknSO&order_id=26&redirect&_wpnonce=5642a03a1e"
+    },
+    "auto_return": "approved",
+    "payment_methods": {
+        "excluded_payment_methods": [
+            {
+                "id": ""
+            }
+        ],
+        "excluded_payment_types": [
+            {
+                "id": ""
+            }
+        ],
+        "installments": 2
+    },
+    "client_id": "1951075464327715",
+    "marketplace": "NONE",
+    "marketplace_fee": 0,
+    "shipments": {
+        "receiver_address": {
+            "zip_code": "14000",
+            "street_name": "AREQUIPA MZ 3K LT. 4  CHICLAYO LAM PE",
+            "floor": "",
+            "apartment": "",
+            "city_name": "CHICLAYO",
+            "state_name": "LAM"
+        }
+    },
+    "notification_url": "http:\/\/internal.mercadopago.com\/v1\/bifrost\/merchant-order-notification\/webhook\/production?source_news=ipn&notify_all=false",
+    "statement_descriptor": "Mercado Pago",
+    "external_reference": "WC-26",
+    "additional_info": "{\"items\":null,\"ip_address\":null,\"referral_url\":null,\"drop_shipping\":null,\"delivery_promise\":null,\"contrated_plan\":null,\"payer\":{\"first_name\":null,\"last_name\":null,\"phone\":{\"number\":null,\"area_code\":null},\"registration_date\":null,\"address\":{\"zip_code\":null,\"street_name\":null,\"street_number\":null}},\"shipments\":{\"receiver_address\":{\"zip_code\":null,\"state_name\":null,\"city_name\":null,\"street_name\":null,\"street_number\":null,\"floor\":null,\"apartment\":null}}}",
+    "expires": false,
+    "date_created": "2023-11-03T01:29:39.687-04:00",
+    "init_point": "https:\/\/www.mercadopago.com.pe\/checkout\/v1\/redirect?pref_id=1362009890-66f73dec-94f7-40c1-935a-c442a954d919",
+    "sandbox_init_point": "https:\/\/sandbox.mercadopago.com.pe\/checkout\/v1\/redirect?pref_id=1362009890-66f73dec-94f7-40c1-935a-c442a954d919",
+    "metadata": {
+        "basic_settings": {
+            "auto_return": "yes",
+            "binary_mode": "no",
+            "checkbox_checkout_test_mode": "yes",
+            "checkout_credential_prod": "deprecated",
+            "commission_checkbox": "no",
+            "currency_conversion": "no",
+            "enabled": "yes",
+            "ex_payments_amex": "yes",
+            "ex_payments_debmaster": "yes",
+            "ex_payments_debvisa": "yes",
+            "ex_payments_diners": "yes",
+            "ex_payments_master": "yes",
+            "ex_payments_pagoefectivo_atm": "yes",
+            "ex_payments_visa": "yes",
+            "gateway_discount_checkbox": "no",
+            "installments": "2",
+            "method": "redirect"
+        },
+        "billing_address": {
+            "city_name": "CHICLAYO",
+            "country_name": "PE",
+            "state_name": "LAM",
+            "street_name": "AREQUIPA MZ 3K LT. 4",
+            "zip_code": "14000"
+        },
+        "checkout": "smart",
+        "checkout_type": "redirect",
+        "collector": "1362009890",
+        "credits_settings": [],
+        "custom_settings": [],
+        "details": "",
+        "module_version": "6.9.3",
+        "original_notification_url": "http:\/\/wordpress.test\/wc-api\/WC_WooMercadoPago_Basic_Gateway\/?source_news=ipn",
+        "php_version": "8.1.10",
+        "pix_settings": [],
+        "platform": "bo2hnr2ic4p001kbgpt0",
+        "platform_version": "8.2.1",
+        "seller_website": "http:\/\/wordpress.test",
+        "site_id": "mpe",
+        "sponsor_id": 216998692,
+        "test_mode": true,
+        "ticket_settings": [],
+        "user": {
+            "registered_user": "no"
+        }
+    },
+    "binary_mode": false,
+    "product_id": "BT7OF5FEOO6G01NJK3QG",
+    "redirect_urls": {
+        "success": "",
+        "pending": "",
+        "failure": ""
+    },
+    "site_id": "MPE",
+    "total_amount": "102"
+}
+11-03-2023 @ 06:33:10 - [process_payment]: customer being redirected to Mercado Pago.
+11-03-2023 @ 06:33:10 - [get_transaction]: Preference: {
+    "additional_info": {
+        "ip_address": null,
+        "referral_url": null,
+        "drop_shipping": null,
+        "delivery_promise": null,
+        "contrated_plan": null,
+        "payer": {
+            "first_name": null,
+            "last_name": null,
+            "registration_date": null,
+            "registered_user": null,
+            "device_id": null,
+            "platform_email": null,
+            "register_updated_at": null,
+            "user_email": null,
+            "authentication_type": null,
+            "last_purchase": null,
+            "address": {
+                "street_name": null,
+                "zip_code": null,
+                "city": null,
+                "country": null,
+                "state": null,
+                "number": null,
+                "complement": null,
+                "apartment": null,
+                "floor": null
+            },
+            "phone": {
+                "number": null,
+                "area_code": null
+            },
+            "mobile": {
+                "number": null,
+                "area_code": null
+            },
+            "identification": {
+                "type": null,
+                "number": null
+            }
+        },
+        "seller": {
+            "id": null,
+            "registration_date": null,
+            "business_type": null,
+            "status": null,
+            "store_id": null,
+            "user_platform_mail": null,
+            "email": null,
+            "collector": null,
+            "website": null,
+            "platform_url": null,
+            "referral_url": null,
+            "register_updated_at": null,
+            "document": null,
+            "name": null,
+            "hired_plan": null,
+            "identification": {
+                "type": null,
+                "number": null
+            },
+            "phone": {
+                "number": null,
+                "area_code": null
+            },
+            "address": {
+                "street_name": null,
+                "zip_code": null,
+                "city": null,
+                "country": null,
+                "state": null,
+                "number": null,
+                "complement": null,
+                "apartment": null,
+                "floor": null
+            }
+        },
+        "shipments": {
+            "delivery_promise": null,
+            "drop_shipping": null,
+            "local_pickup": null,
+            "express_shipment": null,
+            "safety": null,
+            "withdrawn": null,
+            "tracking": {
+                "code": null,
+                "status": null
+            },
+            "receiver_address": {
+                "street_name": null,
+                "zip_code": null,
+                "city": null,
+                "country": null,
+                "state": null,
+                "number": null,
+                "complement": null,
+                "apartment": null,
+                "floor": null
+            }
+        }
+    },
+    "auto_return": "approved",
+    "binary_mode": false,
+    "expiration_date_from": null,
+    "expiration_date_to": null,
+    "expires": null,
+    "external_reference": "WC-27",
+    "notification_url": "http:\/\/wordpress.test\/wc-api\/WC_WooMercadoPago_Basic_Gateway\/?source_news=ipn",
+    "purpose": null,
+    "statement_descriptor": "Mercado Pago",
+    "items": [
+        {
+            "id": 15,
+            "title": "Ropa x 1",
+            "description": "Remera-lisa-de-color-negro-en-diferentes-talles",
+            "picture_url": "http:\/\/wordpress.test\/wp-content\/uploads\/2023\/11\/REMERA.png",
+            "category_id": "others",
+            "quantity": 1,
+            "currency_id": "PEN",
+            "unit_price": 90
+        },
+        {
+            "id": null,
+            "title": "Precio fijo por Envio",
+            "description": "Servicio de envío utilizado por la tienda.",
+            "picture_url": null,
+            "category_id": "others",
+            "quantity": 1,
+            "currency_id": null,
+            "unit_price": 12
+        }
+    ],
+    "payment_methods": {
+        "default_payment_method_id": null,
+        "default_installments": null,
+        "installments": 2
+    },
+    "back_urls": {
+        "failure": "http:\/\/wordpress.test\/carrito\/?cancel_order=true&order=wc_order_AuPZLruirD2JW&order_id=27&redirect&_wpnonce=5642a03a1e",
+        "pending": "http:\/\/wordpress.test\/finalizar-compra\/order-received\/27\/?key=wc_order_AuPZLruirD2JW",
+        "success": "http:\/\/wordpress.test\/finalizar-compra\/order-received\/27\/?key=wc_order_AuPZLruirD2JW"
+    },
+    "payer": {
+        "entity_type": null,
+        "type": null,
+        "id": null,
+        "email": "dchumanlluen@gmail.com",
+        "identification": {
+            "type": null,
+            "number": null
+        },
+        "name": "Dagner",
+        "surname": "Chuman",
+        "operator_id": null,
+        "address": {
+            "street_name": "AREQUIPA MZ 3K LT. 4 \/ CHICLAYO LAM PE",
+            "street_number": null,
+            "neighborhood": null,
+            "city": null,
+            "federal_unit": null,
+            "zip_code": "14000"
+        },
+        "phone": {
+            "area_code": null,
+            "number": "958875176"
+        },
+        "date_created": null
+    },
+    "shipments": {
+        "default_shipping_method": null,
+        "receiver_address": {
+            "zip_code": "14000",
+            "street_name": "AREQUIPA MZ 3K LT. 4  CHICLAYO LAM PE",
+            "city_name": "CHICLAYO",
+            "state_name": "LAM",
+            "street_number": null,
+            "floor": null,
+            "apartment": ""
+        },
+        "cost": null,
+        "dimensions": null,
+        "free_shipping": null,
+        "local_pickup": null,
+        "mode": null
+    },
+    "metadata": {
+        "platform": "bo2hnr2ic4p001kbgpt0",
+        "platform_version": "8.2.1",
+        "module_version": "6.9.3",
+        "php_version": "8.1.10",
+        "site_id": "mpe",
+        "sponsor_id": 216998692,
+        "collector": "1362009890",
+        "test_mode": true,
+        "details": "",
+        "basic_settings": {
+            "enabled": "yes",
+            "currency_conversion": "no",
+            "installments": "2",
+            "method": "redirect",
+            "auto_return": "yes",
+            "binary_mode": "no",
+            "ex_payments_amex": "yes",
+            "ex_payments_master": "yes",
+            "ex_payments_diners": "yes",
+            "ex_payments_visa": "yes",
+            "ex_payments_debmaster": "yes",
+            "ex_payments_debvisa": "yes",
+            "ex_payments_pagoefectivo_atm": "yes",
+            "gateway_discount_checkbox": "no",
+            "commission_checkbox": "no",
+            "checkbox_checkout_test_mode": "yes",
+            "checkout_credential_prod": "deprecated"
+        },
+        "custom_settings": [],
+        "ticket_settings": [],
+        "pix_settings": [],
+        "credits_settings": [],
+        "seller_website": "http:\/\/wordpress.test",
+        "billing_address": {
+            "zip_code": "14000",
+            "street_name": "AREQUIPA MZ 3K LT. 4",
+            "city_name": "CHICLAYO",
+            "state_name": "LAM",
+            "country_name": "PE"
+        },
+        "user": {
+            "registered_user": "no",
+            "user_email": null,
+            "user_registration_date": null
+        },
+        "checkout": "smart",
+        "checkout_type": "redirect"
+    },
+    "date_of_expiration": null,
+    "differential_pricing": null,
+    "marketplace": null,
+    "marketplace_fee": null,
+    "sponsor_id": null
+}
+11-03-2023 @ 06:33:11 - [create_preference]: Created Preference: {
+    "id": "1362009890-daecf7ce-bd1f-4f92-aa4f-c4fd24cce21e",
+    "collector_id": 1362009890,
+    "operation_type": "regular_payment",
+    "items": [
+        {
+            "id": "15",
+            "picture_url": "https:\/\/http2.mlstatic.com\/D_NQ_NP_758278-MPE72652025715_112023-F.jpg",
+            "title": "Ropa x 1",
+            "description": "Remera-lisa-de-color-negro-en-diferentes-talles",
+            "category_id": "others",
+            "currency_id": "PEN",
+            "quantity": 1,
+            "unit_price": 90
+        },
+        {
+            "id": "",
+            "title": "Precio fijo por Envio",
+            "description": "Servicio de envío utilizado por la tienda.",
+            "category_id": "others",
+            "currency_id": "PEN",
+            "quantity": 1,
+            "unit_price": 12
+        }
+    ],
+    "payer": {
+        "name": "Dagner",
+        "surname": "Chuman",
+        "email": "dchumanlluen@gmail.com",
+        "phone": {
+            "area_code": "",
+            "number": "958875176"
+        },
+        "identification": {
+            "number": "",
+            "type": ""
+        },
+        "address": {
+            "street_name": "AREQUIPA MZ 3K LT. 4  CHICLAYO LAM PE",
+            "zip_code": "14000"
+        }
+    },
+    "back_urls": {
+        "success": "http:\/\/wordpress.test\/finalizar-compra\/order-received\/27\/?key=wc_order_AuPZLruirD2JW",
+        "pending": "http:\/\/wordpress.test\/finalizar-compra\/order-received\/27\/?key=wc_order_AuPZLruirD2JW",
+        "failure": "http:\/\/wordpress.test\/carrito\/?cancel_order=true&order=wc_order_AuPZLruirD2JW&order_id=27&redirect&_wpnonce=5642a03a1e"
+    },
+    "auto_return": "approved",
+    "payment_methods": {
+        "excluded_payment_methods": [
+            {
+                "id": ""
+            }
+        ],
+        "excluded_payment_types": [
+            {
+                "id": ""
+            }
+        ],
+        "installments": 2
+    },
+    "client_id": "1951075464327715",
+    "marketplace": "NONE",
+    "marketplace_fee": 0,
+    "shipments": {
+        "receiver_address": {
+            "zip_code": "14000",
+            "street_name": "AREQUIPA MZ 3K LT. 4  CHICLAYO LAM PE",
+            "floor": "",
+            "apartment": "",
+            "city_name": "CHICLAYO",
+            "state_name": "LAM"
+        }
+    },
+    "notification_url": "http:\/\/internal.mercadopago.com\/v1\/bifrost\/merchant-order-notification\/webhook\/production?source_news=ipn&notify_all=false",
+    "statement_descriptor": "Mercado Pago",
+    "external_reference": "WC-27",
+    "additional_info": "{\"items\":null,\"ip_address\":null,\"referral_url\":null,\"drop_shipping\":null,\"delivery_promise\":null,\"contrated_plan\":null,\"payer\":{\"first_name\":null,\"last_name\":null,\"phone\":{\"number\":null,\"area_code\":null},\"registration_date\":null,\"address\":{\"zip_code\":null,\"street_name\":null,\"street_number\":null}},\"shipments\":{\"receiver_address\":{\"zip_code\":null,\"state_name\":null,\"city_name\":null,\"street_name\":null,\"street_number\":null,\"floor\":null,\"apartment\":null}}}",
+    "expires": false,
+    "date_created": "2023-11-03T01:33:10.215-04:00",
+    "init_point": "https:\/\/www.mercadopago.com.pe\/checkout\/v1\/redirect?pref_id=1362009890-daecf7ce-bd1f-4f92-aa4f-c4fd24cce21e",
+    "sandbox_init_point": "https:\/\/sandbox.mercadopago.com.pe\/checkout\/v1\/redirect?pref_id=1362009890-daecf7ce-bd1f-4f92-aa4f-c4fd24cce21e",
+    "metadata": {
+        "basic_settings": {
+            "auto_return": "yes",
+            "binary_mode": "no",
+            "checkbox_checkout_test_mode": "yes",
+            "checkout_credential_prod": "deprecated",
+            "commission_checkbox": "no",
+            "currency_conversion": "no",
+            "enabled": "yes",
+            "ex_payments_amex": "yes",
+            "ex_payments_debmaster": "yes",
+            "ex_payments_debvisa": "yes",
+            "ex_payments_diners": "yes",
+            "ex_payments_master": "yes",
+            "ex_payments_pagoefectivo_atm": "yes",
+            "ex_payments_visa": "yes",
+            "gateway_discount_checkbox": "no",
+            "installments": "2",
+            "method": "redirect"
+        },
+        "billing_address": {
+            "city_name": "CHICLAYO",
+            "country_name": "PE",
+            "state_name": "LAM",
+            "street_name": "AREQUIPA MZ 3K LT. 4",
+            "zip_code": "14000"
+        },
+        "checkout": "smart",
+        "checkout_type": "redirect",
+        "collector": "1362009890",
+        "credits_settings": [],
+        "custom_settings": [],
+        "details": "",
+        "module_version": "6.9.3",
+        "original_notification_url": "http:\/\/wordpress.test\/wc-api\/WC_WooMercadoPago_Basic_Gateway\/?source_news=ipn",
+        "php_version": "8.1.10",
+        "pix_settings": [],
+        "platform": "bo2hnr2ic4p001kbgpt0",
+        "platform_version": "8.2.1",
+        "seller_website": "http:\/\/wordpress.test",
+        "site_id": "mpe",
+        "sponsor_id": 216998692,
+        "test_mode": true,
+        "ticket_settings": [],
+        "user": {
+            "registered_user": "no"
+        }
+    },
+    "binary_mode": false,
+    "product_id": "BT7OF5FEOO6G01NJK3QG",
+    "redirect_urls": {
+        "success": "",
+        "pending": "",
+        "failure": ""
+    },
+    "site_id": "MPE",
+    "total_amount": "102"
+}
+11-03-2023 @ 06:45:26 - [process_payment]: customer being redirected to Mercado Pago.
+11-03-2023 @ 06:45:26 - [get_transaction]: Preference: {
+    "additional_info": {
+        "ip_address": null,
+        "referral_url": null,
+        "drop_shipping": null,
+        "delivery_promise": null,
+        "contrated_plan": null,
+        "payer": {
+            "first_name": null,
+            "last_name": null,
+            "registration_date": null,
+            "registered_user": null,
+            "device_id": null,
+            "platform_email": null,
+            "register_updated_at": null,
+            "user_email": null,
+            "authentication_type": null,
+            "last_purchase": null,
+            "address": {
+                "street_name": null,
+                "zip_code": null,
+                "city": null,
+                "country": null,
+                "state": null,
+                "number": null,
+                "complement": null,
+                "apartment": null,
+                "floor": null
+            },
+            "phone": {
+                "number": null,
+                "area_code": null
+            },
+            "mobile": {
+                "number": null,
+                "area_code": null
+            },
+            "identification": {
+                "type": null,
+                "number": null
+            }
+        },
+        "seller": {
+            "id": null,
+            "registration_date": null,
+            "business_type": null,
+            "status": null,
+            "store_id": null,
+            "user_platform_mail": null,
+            "email": null,
+            "collector": null,
+            "website": null,
+            "platform_url": null,
+            "referral_url": null,
+            "register_updated_at": null,
+            "document": null,
+            "name": null,
+            "hired_plan": null,
+            "identification": {
+                "type": null,
+                "number": null
+            },
+            "phone": {
+                "number": null,
+                "area_code": null
+            },
+            "address": {
+                "street_name": null,
+                "zip_code": null,
+                "city": null,
+                "country": null,
+                "state": null,
+                "number": null,
+                "complement": null,
+                "apartment": null,
+                "floor": null
+            }
+        },
+        "shipments": {
+            "delivery_promise": null,
+            "drop_shipping": null,
+            "local_pickup": null,
+            "express_shipment": null,
+            "safety": null,
+            "withdrawn": null,
+            "tracking": {
+                "code": null,
+                "status": null
+            },
+            "receiver_address": {
+                "street_name": null,
+                "zip_code": null,
+                "city": null,
+                "country": null,
+                "state": null,
+                "number": null,
+                "complement": null,
+                "apartment": null,
+                "floor": null
+            }
+        }
+    },
+    "auto_return": "approved",
+    "binary_mode": false,
+    "expiration_date_from": null,
+    "expiration_date_to": null,
+    "expires": null,
+    "external_reference": "WC-28",
+    "notification_url": "http:\/\/wordpress.test\/wc-api\/WC_WooMercadoPago_Basic_Gateway\/?source_news=ipn",
+    "purpose": null,
+    "statement_descriptor": "Mercado Pago",
+    "items": [
+        {
+            "id": 15,
+            "title": "Ropa x 1",
+            "description": "Remera-lisa-de-color-negro-en-diferentes-talles",
+            "picture_url": "http:\/\/wordpress.test\/wp-content\/uploads\/2023\/11\/REMERA.png",
+            "category_id": "others",
+            "quantity": 1,
+            "currency_id": "PEN",
+            "unit_price": 0
+        },
+        {
+            "id": null,
+            "title": "Precio fijo por Envio",
+            "description": "Servicio de envío utilizado por la tienda.",
+            "picture_url": null,
+            "category_id": "others",
+            "quantity": 1,
+            "currency_id": null,
+            "unit_price": 12
+        }
+    ],
+    "payment_methods": {
+        "default_payment_method_id": null,
+        "default_installments": null,
+        "installments": 2
+    },
+    "back_urls": {
+        "failure": "http:\/\/wordpress.test\/carrito\/?cancel_order=true&order=wc_order_4Y8HhSMydSuYK&order_id=28&redirect&_wpnonce=f00c3d62ad",
+        "pending": "http:\/\/wordpress.test\/finalizar-compra\/order-received\/28\/?key=wc_order_4Y8HhSMydSuYK",
+        "success": "http:\/\/wordpress.test\/finalizar-compra\/order-received\/28\/?key=wc_order_4Y8HhSMydSuYK"
+    },
+    "payer": {
+        "entity_type": null,
+        "type": null,
+        "id": null,
+        "email": "dchumanlluen@gmail.com",
+        "identification": {
+            "type": null,
+            "number": null
+        },
+        "name": "Dagner",
+        "surname": "Chuman",
+        "operator_id": null,
+        "address": {
+            "street_name": "AREQUIPA MZ 3K LT. 4 \/ CHICLAYO LAM PE",
+            "street_number": null,
+            "neighborhood": null,
+            "city": null,
+            "federal_unit": null,
+            "zip_code": "14000"
+        },
+        "phone": {
+            "area_code": null,
+            "number": "958875176"
+        },
+        "date_created": null
+    },
+    "shipments": {
+        "default_shipping_method": null,
+        "receiver_address": {
+            "zip_code": "14000",
+            "street_name": "AREQUIPA MZ 3K LT. 4  CHICLAYO LAM PE",
+            "city_name": "CHICLAYO",
+            "state_name": "LAM",
+            "street_number": null,
+            "floor": null,
+            "apartment": ""
+        },
+        "cost": null,
+        "dimensions": null,
+        "free_shipping": null,
+        "local_pickup": null,
+        "mode": null
+    },
+    "metadata": {
+        "platform": "bo2hnr2ic4p001kbgpt0",
+        "platform_version": "8.2.1",
+        "module_version": "6.9.3",
+        "php_version": "8.1.10",
+        "site_id": "mpe",
+        "sponsor_id": 216998692,
+        "collector": "1362009890",
+        "test_mode": true,
+        "details": "",
+        "basic_settings": {
+            "enabled": "yes",
+            "currency_conversion": "no",
+            "installments": "2",
+            "method": "redirect",
+            "auto_return": "yes",
+            "binary_mode": "no",
+            "ex_payments_amex": "yes",
+            "ex_payments_master": "yes",
+            "ex_payments_diners": "yes",
+            "ex_payments_visa": "yes",
+            "ex_payments_debmaster": "yes",
+            "ex_payments_debvisa": "yes",
+            "ex_payments_pagoefectivo_atm": "yes",
+            "gateway_discount_checkbox": "no",
+            "commission_checkbox": "no",
+            "checkbox_checkout_test_mode": "yes",
+            "checkout_credential_prod": "deprecated"
+        },
+        "custom_settings": [],
+        "ticket_settings": [],
+        "pix_settings": [],
+        "credits_settings": [],
+        "seller_website": "http:\/\/wordpress.test",
+        "billing_address": {
+            "zip_code": "14000",
+            "street_name": "AREQUIPA MZ 3K LT. 4",
+            "city_name": "CHICLAYO",
+            "state_name": "LAM",
+            "country_name": "PE"
+        },
+        "user": {
+            "registered_user": "no",
+            "user_email": null,
+            "user_registration_date": null
+        },
+        "checkout": "smart",
+        "checkout_type": "redirect"
+    },
+    "date_of_expiration": null,
+    "differential_pricing": null,
+    "marketplace": null,
+    "marketplace_fee": null,
+    "sponsor_id": null
+}
+11-03-2023 @ 06:45:27 - [create_preference]: Created Preference: {
+    "id": "1362009890-fe9e282d-0626-4489-b4b8-79dd5f6ed19c",
+    "collector_id": 1362009890,
+    "operation_type": "regular_payment",
+    "items": [
+        {
+            "id": "15",
+            "picture_url": "https:\/\/http2.mlstatic.com\/D_NQ_NP_758278-MPE72652025715_112023-F.jpg",
+            "title": "Ropa x 1",
+            "description": "Remera-lisa-de-color-negro-en-diferentes-talles",
+            "category_id": "others",
+            "currency_id": "PEN",
+            "quantity": 1,
+            "unit_price": 0
+        },
+        {
+            "id": "",
+            "title": "Precio fijo por Envio",
+            "description": "Servicio de envío utilizado por la tienda.",
+            "category_id": "others",
+            "currency_id": "PEN",
+            "quantity": 1,
+            "unit_price": 12
+        }
+    ],
+    "payer": {
+        "name": "Dagner",
+        "surname": "Chuman",
+        "email": "dchumanlluen@gmail.com",
+        "phone": {
+            "area_code": "",
+            "number": "958875176"
+        },
+        "identification": {
+            "number": "",
+            "type": ""
+        },
+        "address": {
+            "street_name": "AREQUIPA MZ 3K LT. 4  CHICLAYO LAM PE",
+            "zip_code": "14000"
+        }
+    },
+    "back_urls": {
+        "success": "http:\/\/wordpress.test\/finalizar-compra\/order-received\/28\/?key=wc_order_4Y8HhSMydSuYK",
+        "pending": "http:\/\/wordpress.test\/finalizar-compra\/order-received\/28\/?key=wc_order_4Y8HhSMydSuYK",
+        "failure": "http:\/\/wordpress.test\/carrito\/?cancel_order=true&order=wc_order_4Y8HhSMydSuYK&order_id=28&redirect&_wpnonce=f00c3d62ad"
+    },
+    "auto_return": "approved",
+    "payment_methods": {
+        "excluded_payment_methods": [
+            {
+                "id": ""
+            }
+        ],
+        "excluded_payment_types": [
+            {
+                "id": ""
+            }
+        ],
+        "installments": 2
+    },
+    "client_id": "1951075464327715",
+    "marketplace": "NONE",
+    "marketplace_fee": 0,
+    "shipments": {
+        "receiver_address": {
+            "zip_code": "14000",
+            "street_name": "AREQUIPA MZ 3K LT. 4  CHICLAYO LAM PE",
+            "floor": "",
+            "apartment": "",
+            "city_name": "CHICLAYO",
+            "state_name": "LAM"
+        }
+    },
+    "notification_url": "http:\/\/internal.mercadopago.com\/v1\/bifrost\/merchant-order-notification\/webhook\/production?source_news=ipn&notify_all=false",
+    "statement_descriptor": "Mercado Pago",
+    "external_reference": "WC-28",
+    "additional_info": "{\"items\":null,\"ip_address\":null,\"referral_url\":null,\"drop_shipping\":null,\"delivery_promise\":null,\"contrated_plan\":null,\"payer\":{\"first_name\":null,\"last_name\":null,\"phone\":{\"number\":null,\"area_code\":null},\"registration_date\":null,\"address\":{\"zip_code\":null,\"street_name\":null,\"street_number\":null}},\"shipments\":{\"receiver_address\":{\"zip_code\":null,\"state_name\":null,\"city_name\":null,\"street_name\":null,\"street_number\":null,\"floor\":null,\"apartment\":null}}}",
+    "expires": false,
+    "date_created": "2023-11-03T01:45:26.187-04:00",
+    "init_point": "https:\/\/www.mercadopago.com.pe\/checkout\/v1\/redirect?pref_id=1362009890-fe9e282d-0626-4489-b4b8-79dd5f6ed19c",
+    "sandbox_init_point": "https:\/\/sandbox.mercadopago.com.pe\/checkout\/v1\/redirect?pref_id=1362009890-fe9e282d-0626-4489-b4b8-79dd5f6ed19c",
+    "metadata": {
+        "basic_settings": {
+            "auto_return": "yes",
+            "binary_mode": "no",
+            "checkbox_checkout_test_mode": "yes",
+            "checkout_credential_prod": "deprecated",
+            "commission_checkbox": "no",
+            "currency_conversion": "no",
+            "enabled": "yes",
+            "ex_payments_amex": "yes",
+            "ex_payments_debmaster": "yes",
+            "ex_payments_debvisa": "yes",
+            "ex_payments_diners": "yes",
+            "ex_payments_master": "yes",
+            "ex_payments_pagoefectivo_atm": "yes",
+            "ex_payments_visa": "yes",
+            "gateway_discount_checkbox": "no",
+            "installments": "2",
+            "method": "redirect"
+        },
+        "billing_address": {
+            "city_name": "CHICLAYO",
+            "country_name": "PE",
+            "state_name": "LAM",
+            "street_name": "AREQUIPA MZ 3K LT. 4",
+            "zip_code": "14000"
+        },
+        "checkout": "smart",
+        "checkout_type": "redirect",
+        "collector": "1362009890",
+        "credits_settings": [],
+        "custom_settings": [],
+        "details": "",
+        "module_version": "6.9.3",
+        "original_notification_url": "http:\/\/wordpress.test\/wc-api\/WC_WooMercadoPago_Basic_Gateway\/?source_news=ipn",
+        "php_version": "8.1.10",
+        "pix_settings": [],
+        "platform": "bo2hnr2ic4p001kbgpt0",
+        "platform_version": "8.2.1",
+        "seller_website": "http:\/\/wordpress.test",
+        "site_id": "mpe",
+        "sponsor_id": 216998692,
+        "test_mode": true,
+        "ticket_settings": [],
+        "user": {
+            "registered_user": "no"
+        }
+    },
+    "binary_mode": false,
+    "product_id": "BT7OF5FEOO6G01NJK3QG",
+    "redirect_urls": {
+        "success": "",
+        "pending": "",
+        "failure": ""
+    },
+    "site_id": "MPE",
+    "total_amount": "12"
+}
+11-03-2023 @ 06:48:57 - [process_payment]: customer being redirected to Mercado Pago.
+11-03-2023 @ 06:48:57 - [get_transaction]: Preference: {
+    "additional_info": {
+        "ip_address": null,
+        "referral_url": null,
+        "drop_shipping": null,
+        "delivery_promise": null,
+        "contrated_plan": null,
+        "payer": {
+            "first_name": null,
+            "last_name": null,
+            "registration_date": null,
+            "registered_user": null,
+            "device_id": null,
+            "platform_email": null,
+            "register_updated_at": null,
+            "user_email": null,
+            "authentication_type": null,
+            "last_purchase": null,
+            "address": {
+                "street_name": null,
+                "zip_code": null,
+                "city": null,
+                "country": null,
+                "state": null,
+                "number": null,
+                "complement": null,
+                "apartment": null,
+                "floor": null
+            },
+            "phone": {
+                "number": null,
+                "area_code": null
+            },
+            "mobile": {
+                "number": null,
+                "area_code": null
+            },
+            "identification": {
+                "type": null,
+                "number": null
+            }
+        },
+        "seller": {
+            "id": null,
+            "registration_date": null,
+            "business_type": null,
+            "status": null,
+            "store_id": null,
+            "user_platform_mail": null,
+            "email": null,
+            "collector": null,
+            "website": null,
+            "platform_url": null,
+            "referral_url": null,
+            "register_updated_at": null,
+            "document": null,
+            "name": null,
+            "hired_plan": null,
+            "identification": {
+                "type": null,
+                "number": null
+            },
+            "phone": {
+                "number": null,
+                "area_code": null
+            },
+            "address": {
+                "street_name": null,
+                "zip_code": null,
+                "city": null,
+                "country": null,
+                "state": null,
+                "number": null,
+                "complement": null,
+                "apartment": null,
+                "floor": null
+            }
+        },
+        "shipments": {
+            "delivery_promise": null,
+            "drop_shipping": null,
+            "local_pickup": null,
+            "express_shipment": null,
+            "safety": null,
+            "withdrawn": null,
+            "tracking": {
+                "code": null,
+                "status": null
+            },
+            "receiver_address": {
+                "street_name": null,
+                "zip_code": null,
+                "city": null,
+                "country": null,
+                "state": null,
+                "number": null,
+                "complement": null,
+                "apartment": null,
+                "floor": null
+            }
+        }
+    },
+    "auto_return": "approved",
+    "binary_mode": false,
+    "expiration_date_from": null,
+    "expiration_date_to": null,
+    "expires": null,
+    "external_reference": "WC-30",
+    "notification_url": "http:\/\/wordpress.test\/wc-api\/WC_WooMercadoPago_Basic_Gateway\/?source_news=ipn",
+    "purpose": null,
+    "statement_descriptor": "Mercado Pago",
+    "items": [
+        {
+            "id": 15,
+            "title": "Ropa x 1",
+            "description": "Remera-lisa-de-color-negro-en-diferentes-talles",
+            "picture_url": "http:\/\/wordpress.test\/wp-content\/uploads\/2023\/11\/REMERA.png",
+            "category_id": "others",
+            "quantity": 1,
+            "currency_id": "PEN",
+            "unit_price": 0
+        },
+        {
+            "id": null,
+            "title": "Precio fijo por Envio",
+            "description": "Servicio de envío utilizado por la tienda.",
+            "picture_url": null,
+            "category_id": "others",
+            "quantity": 1,
+            "currency_id": null,
+            "unit_price": 12
+        }
+    ],
+    "payment_methods": {
+        "default_payment_method_id": null,
+        "default_installments": null,
+        "installments": 2
+    },
+    "back_urls": {
+        "failure": "http:\/\/wordpress.test\/carrito\/?cancel_order=true&order=wc_order_kEgFQpHs1iSmI&order_id=30&redirect&_wpnonce=84b5fd2540",
+        "pending": "http:\/\/wordpress.test\/finalizar-compra\/order-received\/30\/?key=wc_order_kEgFQpHs1iSmI",
+        "success": "http:\/\/wordpress.test\/finalizar-compra\/order-received\/30\/?key=wc_order_kEgFQpHs1iSmI"
+    },
+    "payer": {
+        "entity_type": null,
+        "type": null,
+        "id": null,
+        "email": "dagner_smooth@outlook.com",
+        "identification": {
+            "type": null,
+            "number": null
+        },
+        "name": "Dagner",
+        "surname": "Chuman",
+        "operator_id": null,
+        "address": {
+            "street_name": "Algodonal \/ Ferreñafe LAM PE",
+            "street_number": null,
+            "neighborhood": null,
+            "city": null,
+            "federal_unit": null,
+            "zip_code": "14000"
+        },
+        "phone": {
+            "area_code": null,
+            "number": "958875176"
+        },
+        "date_created": null
+    },
+    "shipments": {
+        "default_shipping_method": null,
+        "receiver_address": {
+            "zip_code": "14000",
+            "street_name": "Algodonal  Ferreñafe LAM PE",
+            "city_name": "Ferreñafe",
+            "state_name": "LAM",
+            "street_number": null,
+            "floor": null,
+            "apartment": ""
+        },
+        "cost": null,
+        "dimensions": null,
+        "free_shipping": null,
+        "local_pickup": null,
+        "mode": null
+    },
+    "metadata": {
+        "platform": "bo2hnr2ic4p001kbgpt0",
+        "platform_version": "8.2.1",
+        "module_version": "6.9.3",
+        "php_version": "8.1.10",
+        "site_id": "mpe",
+        "sponsor_id": 216998692,
+        "collector": "1362009890",
+        "test_mode": true,
+        "details": "",
+        "basic_settings": {
+            "enabled": "yes",
+            "currency_conversion": "no",
+            "installments": "2",
+            "method": "redirect",
+            "auto_return": "yes",
+            "binary_mode": "no",
+            "ex_payments_amex": "yes",
+            "ex_payments_master": "yes",
+            "ex_payments_diners": "yes",
+            "ex_payments_visa": "yes",
+            "ex_payments_debmaster": "yes",
+            "ex_payments_debvisa": "yes",
+            "ex_payments_pagoefectivo_atm": "yes",
+            "gateway_discount_checkbox": "no",
+            "commission_checkbox": "no",
+            "checkbox_checkout_test_mode": "yes",
+            "checkout_credential_prod": "deprecated"
+        },
+        "custom_settings": [],
+        "ticket_settings": [],
+        "pix_settings": [],
+        "credits_settings": [],
+        "seller_website": "http:\/\/wordpress.test",
+        "billing_address": {
+            "zip_code": "14000",
+            "street_name": "Algodonal",
+            "city_name": "Ferreñafe",
+            "state_name": "LAM",
+            "country_name": "PE"
+        },
+        "user": {
+            "registered_user": "yes",
+            "user_email": "dagner_smooth@outlook.com",
+            "user_registration_date": "2023-11-02T21:28:06.000+00:00"
+        },
+        "checkout": "smart",
+        "checkout_type": "redirect"
+    },
+    "date_of_expiration": null,
+    "differential_pricing": null,
+    "marketplace": null,
+    "marketplace_fee": null,
+    "sponsor_id": null
+}
+11-03-2023 @ 06:48:58 - [create_preference]: Created Preference: {
+    "id": "1362009890-a778fbfc-ec67-4988-b0e2-c00efd5e4947",
+    "collector_id": 1362009890,
+    "operation_type": "regular_payment",
+    "items": [
+        {
+            "id": "15",
+            "picture_url": "https:\/\/http2.mlstatic.com\/D_NQ_NP_758278-MPE72652025715_112023-F.jpg",
+            "title": "Ropa x 1",
+            "description": "Remera-lisa-de-color-negro-en-diferentes-talles",
+            "category_id": "others",
+            "currency_id": "PEN",
+            "quantity": 1,
+            "unit_price": 0
+        },
+        {
+            "id": "",
+            "title": "Precio fijo por Envio",
+            "description": "Servicio de envío utilizado por la tienda.",
+            "category_id": "others",
+            "currency_id": "PEN",
+            "quantity": 1,
+            "unit_price": 12
+        }
+    ],
+    "payer": {
+        "name": "Dagner",
+        "surname": "Chuman",
+        "email": "dagner_smooth@outlook.com",
+        "phone": {
+            "area_code": "",
+            "number": "958875176"
+        },
+        "identification": {
+            "number": "",
+            "type": ""
+        },
+        "address": {
+            "street_name": "Algodonal  Ferreñafe LAM PE",
+            "zip_code": "14000"
+        }
+    },
+    "back_urls": {
+        "success": "http:\/\/wordpress.test\/finalizar-compra\/order-received\/30\/?key=wc_order_kEgFQpHs1iSmI",
+        "pending": "http:\/\/wordpress.test\/finalizar-compra\/order-received\/30\/?key=wc_order_kEgFQpHs1iSmI",
+        "failure": "http:\/\/wordpress.test\/carrito\/?cancel_order=true&order=wc_order_kEgFQpHs1iSmI&order_id=30&redirect&_wpnonce=84b5fd2540"
+    },
+    "auto_return": "approved",
+    "payment_methods": {
+        "excluded_payment_methods": [
+            {
+                "id": ""
+            }
+        ],
+        "excluded_payment_types": [
+            {
+                "id": ""
+            }
+        ],
+        "installments": 2
+    },
+    "client_id": "1951075464327715",
+    "marketplace": "NONE",
+    "marketplace_fee": 0,
+    "shipments": {
+        "receiver_address": {
+            "zip_code": "14000",
+            "street_name": "Algodonal  Ferreñafe LAM PE",
+            "floor": "",
+            "apartment": "",
+            "city_name": "Ferreñafe",
+            "state_name": "LAM"
+        }
+    },
+    "notification_url": "http:\/\/internal.mercadopago.com\/v1\/bifrost\/merchant-order-notification\/webhook\/production?source_news=ipn&notify_all=false",
+    "statement_descriptor": "Mercado Pago",
+    "external_reference": "WC-30",
+    "additional_info": "{\"items\":null,\"ip_address\":null,\"referral_url\":null,\"drop_shipping\":null,\"delivery_promise\":null,\"contrated_plan\":null,\"payer\":{\"first_name\":null,\"last_name\":null,\"phone\":{\"number\":null,\"area_code\":null},\"registration_date\":null,\"address\":{\"zip_code\":null,\"street_name\":null,\"street_number\":null}},\"shipments\":{\"receiver_address\":{\"zip_code\":null,\"state_name\":null,\"city_name\":null,\"street_name\":null,\"street_number\":null,\"floor\":null,\"apartment\":null}}}",
+    "expires": false,
+    "date_created": "2023-11-03T01:48:57.218-04:00",
+    "init_point": "https:\/\/www.mercadopago.com.pe\/checkout\/v1\/redirect?pref_id=1362009890-a778fbfc-ec67-4988-b0e2-c00efd5e4947",
+    "sandbox_init_point": "https:\/\/sandbox.mercadopago.com.pe\/checkout\/v1\/redirect?pref_id=1362009890-a778fbfc-ec67-4988-b0e2-c00efd5e4947",
+    "metadata": {
+        "basic_settings": {
+            "auto_return": "yes",
+            "binary_mode": "no",
+            "checkbox_checkout_test_mode": "yes",
+            "checkout_credential_prod": "deprecated",
+            "commission_checkbox": "no",
+            "currency_conversion": "no",
+            "enabled": "yes",
+            "ex_payments_amex": "yes",
+            "ex_payments_debmaster": "yes",
+            "ex_payments_debvisa": "yes",
+            "ex_payments_diners": "yes",
+            "ex_payments_master": "yes",
+            "ex_payments_pagoefectivo_atm": "yes",
+            "ex_payments_visa": "yes",
+            "gateway_discount_checkbox": "no",
+            "installments": "2",
+            "method": "redirect"
+        },
+        "billing_address": {
+            "city_name": "Ferreñafe",
+            "country_name": "PE",
+            "state_name": "LAM",
+            "street_name": "Algodonal",
+            "zip_code": "14000"
+        },
+        "checkout": "smart",
+        "checkout_type": "redirect",
+        "collector": "1362009890",
+        "credits_settings": [],
+        "custom_settings": [],
+        "details": "",
+        "module_version": "6.9.3",
+        "original_notification_url": "http:\/\/wordpress.test\/wc-api\/WC_WooMercadoPago_Basic_Gateway\/?source_news=ipn",
+        "php_version": "8.1.10",
+        "pix_settings": [],
+        "platform": "bo2hnr2ic4p001kbgpt0",
+        "platform_version": "8.2.1",
+        "seller_website": "http:\/\/wordpress.test",
+        "site_id": "mpe",
+        "sponsor_id": 216998692,
+        "test_mode": true,
+        "ticket_settings": [],
+        "user": {
+            "registered_user": "yes",
+            "user_email": "dagner_smooth@outlook.com",
+            "user_registration_date": "2023-11-02T21:28:06.000+00:00"
+        }
+    },
+    "binary_mode": false,
+    "product_id": "BT7OF5FEOO6G01NJK3QG",
+    "redirect_urls": {
+        "success": "",
+        "pending": "",
+        "failure": ""
+    },
+    "site_id": "MPE",
+    "total_amount": "12"
+}
+11-03-2023 @ 06:49:54 - [process_payment]: customer being redirected to Mercado Pago.
+11-03-2023 @ 06:49:54 - [get_transaction]: Preference: {
+    "additional_info": {
+        "ip_address": null,
+        "referral_url": null,
+        "drop_shipping": null,
+        "delivery_promise": null,
+        "contrated_plan": null,
+        "payer": {
+            "first_name": null,
+            "last_name": null,
+            "registration_date": null,
+            "registered_user": null,
+            "device_id": null,
+            "platform_email": null,
+            "register_updated_at": null,
+            "user_email": null,
+            "authentication_type": null,
+            "last_purchase": null,
+            "address": {
+                "street_name": null,
+                "zip_code": null,
+                "city": null,
+                "country": null,
+                "state": null,
+                "number": null,
+                "complement": null,
+                "apartment": null,
+                "floor": null
+            },
+            "phone": {
+                "number": null,
+                "area_code": null
+            },
+            "mobile": {
+                "number": null,
+                "area_code": null
+            },
+            "identification": {
+                "type": null,
+                "number": null
+            }
+        },
+        "seller": {
+            "id": null,
+            "registration_date": null,
+            "business_type": null,
+            "status": null,
+            "store_id": null,
+            "user_platform_mail": null,
+            "email": null,
+            "collector": null,
+            "website": null,
+            "platform_url": null,
+            "referral_url": null,
+            "register_updated_at": null,
+            "document": null,
+            "name": null,
+            "hired_plan": null,
+            "identification": {
+                "type": null,
+                "number": null
+            },
+            "phone": {
+                "number": null,
+                "area_code": null
+            },
+            "address": {
+                "street_name": null,
+                "zip_code": null,
+                "city": null,
+                "country": null,
+                "state": null,
+                "number": null,
+                "complement": null,
+                "apartment": null,
+                "floor": null
+            }
+        },
+        "shipments": {
+            "delivery_promise": null,
+            "drop_shipping": null,
+            "local_pickup": null,
+            "express_shipment": null,
+            "safety": null,
+            "withdrawn": null,
+            "tracking": {
+                "code": null,
+                "status": null
+            },
+            "receiver_address": {
+                "street_name": null,
+                "zip_code": null,
+                "city": null,
+                "country": null,
+                "state": null,
+                "number": null,
+                "complement": null,
+                "apartment": null,
+                "floor": null
+            }
+        }
+    },
+    "auto_return": "approved",
+    "binary_mode": false,
+    "expiration_date_from": null,
+    "expiration_date_to": null,
+    "expires": null,
+    "external_reference": "WC-31",
+    "notification_url": "http:\/\/wordpress.test\/wc-api\/WC_WooMercadoPago_Basic_Gateway\/?source_news=ipn",
+    "purpose": null,
+    "statement_descriptor": "Mercado Pago",
+    "items": [
+        {
+            "id": 15,
+            "title": "Ropa x 1",
+            "description": "Remera-lisa-de-color-negro-en-diferentes-talles",
+            "picture_url": "http:\/\/wordpress.test\/wp-content\/uploads\/2023\/11\/REMERA.png",
+            "category_id": "others",
+            "quantity": 1,
+            "currency_id": "PEN",
+            "unit_price": 0
+        },
+        {
+            "id": null,
+            "title": "Precio fijo por Envio",
+            "description": "Servicio de envío utilizado por la tienda.",
+            "picture_url": null,
+            "category_id": "others",
+            "quantity": 1,
+            "currency_id": null,
+            "unit_price": 12
+        }
+    ],
+    "payment_methods": {
+        "default_payment_method_id": null,
+        "default_installments": null,
+        "installments": 2
+    },
+    "back_urls": {
+        "failure": "http:\/\/wordpress.test\/carrito\/?cancel_order=true&order=wc_order_VD9fvgzHWBhAN&order_id=31&redirect&_wpnonce=0e26dda80f",
+        "pending": "http:\/\/wordpress.test\/finalizar-compra\/order-received\/31\/?key=wc_order_VD9fvgzHWBhAN",
+        "success": "http:\/\/wordpress.test\/finalizar-compra\/order-received\/31\/?key=wc_order_VD9fvgzHWBhAN"
+    },
+    "payer": {
+        "entity_type": null,
+        "type": null,
+        "id": null,
+        "email": "dchumanlluen@gmail.com",
+        "identification": {
+            "type": null,
+            "number": null
+        },
+        "name": "Dagner",
+        "surname": "Chuman",
+        "operator_id": null,
+        "address": {
+            "street_name": "AREQUIPA MZ 3K LT. 4 \/ CHICLAYO LAM PE",
+            "street_number": null,
+            "neighborhood": null,
+            "city": null,
+            "federal_unit": null,
+            "zip_code": "14000"
+        },
+        "phone": {
+            "area_code": null,
+            "number": "958875176"
+        },
+        "date_created": null
+    },
+    "shipments": {
+        "default_shipping_method": null,
+        "receiver_address": {
+            "zip_code": "14000",
+            "street_name": "AREQUIPA MZ 3K LT. 4  CHICLAYO LAM PE",
+            "city_name": "CHICLAYO",
+            "state_name": "LAM",
+            "street_number": null,
+            "floor": null,
+            "apartment": ""
+        },
+        "cost": null,
+        "dimensions": null,
+        "free_shipping": null,
+        "local_pickup": null,
+        "mode": null
+    },
+    "metadata": {
+        "platform": "bo2hnr2ic4p001kbgpt0",
+        "platform_version": "8.2.1",
+        "module_version": "6.9.3",
+        "php_version": "8.1.10",
+        "site_id": "mpe",
+        "sponsor_id": 216998692,
+        "collector": "1362009890",
+        "test_mode": true,
+        "details": "",
+        "basic_settings": {
+            "enabled": "yes",
+            "currency_conversion": "no",
+            "installments": "2",
+            "method": "redirect",
+            "auto_return": "yes",
+            "binary_mode": "no",
+            "ex_payments_amex": "yes",
+            "ex_payments_master": "yes",
+            "ex_payments_diners": "yes",
+            "ex_payments_visa": "yes",
+            "ex_payments_debmaster": "yes",
+            "ex_payments_debvisa": "yes",
+            "ex_payments_pagoefectivo_atm": "yes",
+            "gateway_discount_checkbox": "no",
+            "commission_checkbox": "no",
+            "checkbox_checkout_test_mode": "yes",
+            "checkout_credential_prod": "deprecated"
+        },
+        "custom_settings": [],
+        "ticket_settings": [],
+        "pix_settings": [],
+        "credits_settings": [],
+        "seller_website": "http:\/\/wordpress.test",
+        "billing_address": {
+            "zip_code": "14000",
+            "street_name": "AREQUIPA MZ 3K LT. 4",
+            "city_name": "CHICLAYO",
+            "state_name": "LAM",
+            "country_name": "PE"
+        },
+        "user": {
+            "registered_user": "no",
+            "user_email": null,
+            "user_registration_date": null
+        },
+        "checkout": "smart",
+        "checkout_type": "redirect"
+    },
+    "date_of_expiration": null,
+    "differential_pricing": null,
+    "marketplace": null,
+    "marketplace_fee": null,
+    "sponsor_id": null
+}
+11-03-2023 @ 06:49:55 - [create_preference]: Created Preference: {
+    "id": "1362009890-666027ce-2444-4541-b753-a89b048645bd",
+    "collector_id": 1362009890,
+    "operation_type": "regular_payment",
+    "items": [
+        {
+            "id": "15",
+            "picture_url": "https:\/\/http2.mlstatic.com\/D_NQ_NP_758278-MPE72652025715_112023-F.jpg",
+            "title": "Ropa x 1",
+            "description": "Remera-lisa-de-color-negro-en-diferentes-talles",
+            "category_id": "others",
+            "currency_id": "PEN",
+            "quantity": 1,
+            "unit_price": 0
+        },
+        {
+            "id": "",
+            "title": "Precio fijo por Envio",
+            "description": "Servicio de envío utilizado por la tienda.",
+            "category_id": "others",
+            "currency_id": "PEN",
+            "quantity": 1,
+            "unit_price": 12
+        }
+    ],
+    "payer": {
+        "name": "Dagner",
+        "surname": "Chuman",
+        "email": "dchumanlluen@gmail.com",
+        "phone": {
+            "area_code": "",
+            "number": "958875176"
+        },
+        "identification": {
+            "number": "",
+            "type": ""
+        },
+        "address": {
+            "street_name": "AREQUIPA MZ 3K LT. 4  CHICLAYO LAM PE",
+            "zip_code": "14000"
+        }
+    },
+    "back_urls": {
+        "success": "http:\/\/wordpress.test\/finalizar-compra\/order-received\/31\/?key=wc_order_VD9fvgzHWBhAN",
+        "pending": "http:\/\/wordpress.test\/finalizar-compra\/order-received\/31\/?key=wc_order_VD9fvgzHWBhAN",
+        "failure": "http:\/\/wordpress.test\/carrito\/?cancel_order=true&order=wc_order_VD9fvgzHWBhAN&order_id=31&redirect&_wpnonce=0e26dda80f"
+    },
+    "auto_return": "approved",
+    "payment_methods": {
+        "excluded_payment_methods": [
+            {
+                "id": ""
+            }
+        ],
+        "excluded_payment_types": [
+            {
+                "id": ""
+            }
+        ],
+        "installments": 2
+    },
+    "client_id": "1951075464327715",
+    "marketplace": "NONE",
+    "marketplace_fee": 0,
+    "shipments": {
+        "receiver_address": {
+            "zip_code": "14000",
+            "street_name": "AREQUIPA MZ 3K LT. 4  CHICLAYO LAM PE",
+            "floor": "",
+            "apartment": "",
+            "city_name": "CHICLAYO",
+            "state_name": "LAM"
+        }
+    },
+    "notification_url": "http:\/\/internal.mercadopago.com\/v1\/bifrost\/merchant-order-notification\/webhook\/production?source_news=ipn&notify_all=false",
+    "statement_descriptor": "Mercado Pago",
+    "external_reference": "WC-31",
+    "additional_info": "{\"items\":null,\"ip_address\":null,\"referral_url\":null,\"drop_shipping\":null,\"delivery_promise\":null,\"contrated_plan\":null,\"payer\":{\"first_name\":null,\"last_name\":null,\"phone\":{\"number\":null,\"area_code\":null},\"registration_date\":null,\"address\":{\"zip_code\":null,\"street_name\":null,\"street_number\":null}},\"shipments\":{\"receiver_address\":{\"zip_code\":null,\"state_name\":null,\"city_name\":null,\"street_name\":null,\"street_number\":null,\"floor\":null,\"apartment\":null}}}",
+    "expires": false,
+    "date_created": "2023-11-03T01:49:54.533-04:00",
+    "init_point": "https:\/\/www.mercadopago.com.pe\/checkout\/v1\/redirect?pref_id=1362009890-666027ce-2444-4541-b753-a89b048645bd",
+    "sandbox_init_point": "https:\/\/sandbox.mercadopago.com.pe\/checkout\/v1\/redirect?pref_id=1362009890-666027ce-2444-4541-b753-a89b048645bd",
+    "metadata": {
+        "basic_settings": {
+            "auto_return": "yes",
+            "binary_mode": "no",
+            "checkbox_checkout_test_mode": "yes",
+            "checkout_credential_prod": "deprecated",
+            "commission_checkbox": "no",
+            "currency_conversion": "no",
+            "enabled": "yes",
+            "ex_payments_amex": "yes",
+            "ex_payments_debmaster": "yes",
+            "ex_payments_debvisa": "yes",
+            "ex_payments_diners": "yes",
+            "ex_payments_master": "yes",
+            "ex_payments_pagoefectivo_atm": "yes",
+            "ex_payments_visa": "yes",
+            "gateway_discount_checkbox": "no",
+            "installments": "2",
+            "method": "redirect"
+        },
+        "billing_address": {
+            "city_name": "CHICLAYO",
+            "country_name": "PE",
+            "state_name": "LAM",
+            "street_name": "AREQUIPA MZ 3K LT. 4",
+            "zip_code": "14000"
+        },
+        "checkout": "smart",
+        "checkout_type": "redirect",
+        "collector": "1362009890",
+        "credits_settings": [],
+        "custom_settings": [],
+        "details": "",
+        "module_version": "6.9.3",
+        "original_notification_url": "http:\/\/wordpress.test\/wc-api\/WC_WooMercadoPago_Basic_Gateway\/?source_news=ipn",
+        "php_version": "8.1.10",
+        "pix_settings": [],
+        "platform": "bo2hnr2ic4p001kbgpt0",
+        "platform_version": "8.2.1",
+        "seller_website": "http:\/\/wordpress.test",
+        "site_id": "mpe",
+        "sponsor_id": 216998692,
+        "test_mode": true,
+        "ticket_settings": [],
+        "user": {
+            "registered_user": "no"
+        }
+    },
+    "binary_mode": false,
+    "product_id": "BT7OF5FEOO6G01NJK3QG",
+    "redirect_urls": {
+        "success": "",
+        "pending": "",
+        "failure": ""
+    },
+    "site_id": "MPE",
+    "total_amount": "12"
+}
+11-03-2023 @ 17:43:01 - [process_payment]: customer being redirected to Mercado Pago.
+11-03-2023 @ 17:43:01 - [get_transaction]: Preference: {
+    "additional_info": {
+        "ip_address": null,
+        "referral_url": null,
+        "drop_shipping": null,
+        "delivery_promise": null,
+        "contrated_plan": null,
+        "payer": {
+            "first_name": null,
+            "last_name": null,
+            "registration_date": null,
+            "registered_user": null,
+            "device_id": null,
+            "platform_email": null,
+            "register_updated_at": null,
+            "user_email": null,
+            "authentication_type": null,
+            "last_purchase": null,
+            "address": {
+                "street_name": null,
+                "zip_code": null,
+                "city": null,
+                "country": null,
+                "state": null,
+                "number": null,
+                "complement": null,
+                "apartment": null,
+                "floor": null
+            },
+            "phone": {
+                "number": null,
+                "area_code": null
+            },
+            "mobile": {
+                "number": null,
+                "area_code": null
+            },
+            "identification": {
+                "type": null,
+                "number": null
+            }
+        },
+        "seller": {
+            "id": null,
+            "registration_date": null,
+            "business_type": null,
+            "status": null,
+            "store_id": null,
+            "user_platform_mail": null,
+            "email": null,
+            "collector": null,
+            "website": null,
+            "platform_url": null,
+            "referral_url": null,
+            "register_updated_at": null,
+            "document": null,
+            "name": null,
+            "hired_plan": null,
+            "identification": {
+                "type": null,
+                "number": null
+            },
+            "phone": {
+                "number": null,
+                "area_code": null
+            },
+            "address": {
+                "street_name": null,
+                "zip_code": null,
+                "city": null,
+                "country": null,
+                "state": null,
+                "number": null,
+                "complement": null,
+                "apartment": null,
+                "floor": null
+            }
+        },
+        "shipments": {
+            "delivery_promise": null,
+            "drop_shipping": null,
+            "local_pickup": null,
+            "express_shipment": null,
+            "safety": null,
+            "withdrawn": null,
+            "tracking": {
+                "code": null,
+                "status": null
+            },
+            "receiver_address": {
+                "street_name": null,
+                "zip_code": null,
+                "city": null,
+                "country": null,
+                "state": null,
+                "number": null,
+                "complement": null,
+                "apartment": null,
+                "floor": null
+            }
+        }
+    },
+    "auto_return": "approved",
+    "binary_mode": false,
+    "expiration_date_from": null,
+    "expiration_date_to": null,
+    "expires": null,
+    "external_reference": "WC-32",
+    "notification_url": "http:\/\/wordpress.test\/wc-api\/WC_WooMercadoPago_Basic_Gateway\/?source_news=ipn",
+    "purpose": null,
+    "statement_descriptor": "Mercado Pago",
+    "items": [
+        {
+            "id": 15,
+            "title": "Ropa x 1",
+            "description": "Remera-lisa-de-color-negro-en-diferentes-talles",
+            "picture_url": "http:\/\/wordpress.test\/wp-content\/uploads\/2023\/11\/REMERA.png",
+            "category_id": "others",
+            "quantity": 1,
+            "currency_id": "PEN",
+            "unit_price": 0
+        },
+        {
+            "id": null,
+            "title": "Precio fijo por Envio",
+            "description": "Servicio de envío utilizado por la tienda.",
+            "picture_url": null,
+            "category_id": "others",
+            "quantity": 1,
+            "currency_id": null,
+            "unit_price": 12
+        }
+    ],
+    "payment_methods": {
+        "default_payment_method_id": null,
+        "default_installments": null,
+        "installments": 2
+    },
+    "back_urls": {
+        "failure": "http:\/\/wordpress.test\/carrito\/?cancel_order=true&order=wc_order_xJwtoOW9LrA9b&order_id=32&redirect&_wpnonce=e8d061b7e3",
+        "pending": "http:\/\/wordpress.test\/finalizar-compra\/order-received\/32\/?key=wc_order_xJwtoOW9LrA9b",
+        "success": "http:\/\/wordpress.test\/finalizar-compra\/order-received\/32\/?key=wc_order_xJwtoOW9LrA9b"
+    },
+    "payer": {
+        "entity_type": null,
+        "type": null,
+        "id": null,
+        "email": "dchumanlluen@gmail.com",
+        "identification": {
+            "type": null,
+            "number": null
+        },
+        "name": "Dagner",
+        "surname": "Chuman",
+        "operator_id": null,
+        "address": {
+            "street_name": "AREQUIPA MZ 3K LT. 4 \/ CHICLAYO LAM PE",
+            "street_number": null,
+            "neighborhood": null,
+            "city": null,
+            "federal_unit": null,
+            "zip_code": "14000"
+        },
+        "phone": {
+            "area_code": null,
+            "number": "958875176"
+        },
+        "date_created": null
+    },
+    "shipments": {
+        "default_shipping_method": null,
+        "receiver_address": {
+            "zip_code": "14000",
+            "street_name": "AREQUIPA MZ 3K LT. 4  CHICLAYO LAM PE",
+            "city_name": "CHICLAYO",
+            "state_name": "LAM",
+            "street_number": null,
+            "floor": null,
+            "apartment": ""
+        },
+        "cost": null,
+        "dimensions": null,
+        "free_shipping": null,
+        "local_pickup": null,
+        "mode": null
+    },
+    "metadata": {
+        "platform": "bo2hnr2ic4p001kbgpt0",
+        "platform_version": "8.2.1",
+        "module_version": "6.9.3",
+        "php_version": "8.1.10",
+        "site_id": "mpe",
+        "sponsor_id": 216998692,
+        "collector": "1362009890",
+        "test_mode": true,
+        "details": "",
+        "basic_settings": {
+            "enabled": "yes",
+            "currency_conversion": "no",
+            "installments": "2",
+            "method": "redirect",
+            "auto_return": "yes",
+            "binary_mode": "no",
+            "ex_payments_amex": "yes",
+            "ex_payments_master": "yes",
+            "ex_payments_diners": "yes",
+            "ex_payments_visa": "yes",
+            "ex_payments_debmaster": "yes",
+            "ex_payments_debvisa": "yes",
+            "ex_payments_pagoefectivo_atm": "yes",
+            "gateway_discount_checkbox": "no",
+            "commission_checkbox": "no",
+            "checkbox_checkout_test_mode": "yes",
+            "checkout_credential_prod": "deprecated"
+        },
+        "custom_settings": [],
+        "ticket_settings": [],
+        "pix_settings": [],
+        "credits_settings": [],
+        "seller_website": "http:\/\/wordpress.test",
+        "billing_address": {
+            "zip_code": "14000",
+            "street_name": "AREQUIPA MZ 3K LT. 4",
+            "city_name": "CHICLAYO",
+            "state_name": "LAM",
+            "country_name": "PE"
+        },
+        "user": {
+            "registered_user": "yes",
+            "user_email": "dchumanlluen@gmail.com",
+            "user_registration_date": "2023-11-03T16:42:10.000+00:00"
+        },
+        "checkout": "smart",
+        "checkout_type": "redirect"
+    },
+    "date_of_expiration": null,
+    "differential_pricing": null,
+    "marketplace": null,
+    "marketplace_fee": null,
+    "sponsor_id": null
+}
+11-03-2023 @ 17:43:01 - [create_preference]: Created Preference: {
+    "id": "1362009890-82d2d1ff-2864-4e3c-9478-d70f40f075df",
+    "collector_id": 1362009890,
+    "operation_type": "regular_payment",
+    "items": [
+        {
+            "id": "15",
+            "picture_url": "https:\/\/http2.mlstatic.com\/D_NQ_NP_758278-MPE72652025715_112023-F.jpg",
+            "title": "Ropa x 1",
+            "description": "Remera-lisa-de-color-negro-en-diferentes-talles",
+            "category_id": "others",
+            "currency_id": "PEN",
+            "quantity": 1,
+            "unit_price": 0
+        },
+        {
+            "id": "",
+            "title": "Precio fijo por Envio",
+            "description": "Servicio de envío utilizado por la tienda.",
+            "category_id": "others",
+            "currency_id": "PEN",
+            "quantity": 1,
+            "unit_price": 12
+        }
+    ],
+    "payer": {
+        "name": "Dagner",
+        "surname": "Chuman",
+        "email": "dchumanlluen@gmail.com",
+        "phone": {
+            "area_code": "",
+            "number": "958875176"
+        },
+        "identification": {
+            "number": "",
+            "type": ""
+        },
+        "address": {
+            "street_name": "AREQUIPA MZ 3K LT. 4  CHICLAYO LAM PE",
+            "zip_code": "14000"
+        }
+    },
+    "back_urls": {
+        "success": "http:\/\/wordpress.test\/finalizar-compra\/order-received\/32\/?key=wc_order_xJwtoOW9LrA9b",
+        "pending": "http:\/\/wordpress.test\/finalizar-compra\/order-received\/32\/?key=wc_order_xJwtoOW9LrA9b",
+        "failure": "http:\/\/wordpress.test\/carrito\/?cancel_order=true&order=wc_order_xJwtoOW9LrA9b&order_id=32&redirect&_wpnonce=e8d061b7e3"
+    },
+    "auto_return": "approved",
+    "payment_methods": {
+        "excluded_payment_methods": [
+            {
+                "id": ""
+            }
+        ],
+        "excluded_payment_types": [
+            {
+                "id": ""
+            }
+        ],
+        "installments": 2
+    },
+    "client_id": "1951075464327715",
+    "marketplace": "NONE",
+    "marketplace_fee": 0,
+    "shipments": {
+        "receiver_address": {
+            "zip_code": "14000",
+            "street_name": "AREQUIPA MZ 3K LT. 4  CHICLAYO LAM PE",
+            "floor": "",
+            "apartment": "",
+            "city_name": "CHICLAYO",
+            "state_name": "LAM"
+        }
+    },
+    "notification_url": "http:\/\/internal.mercadopago.com\/v1\/bifrost\/merchant-order-notification\/webhook\/production?source_news=ipn&notify_all=false",
+    "statement_descriptor": "Mercado Pago",
+    "external_reference": "WC-32",
+    "additional_info": "{\"items\":null,\"ip_address\":null,\"referral_url\":null,\"drop_shipping\":null,\"delivery_promise\":null,\"contrated_plan\":null,\"payer\":{\"first_name\":null,\"last_name\":null,\"phone\":{\"number\":null,\"area_code\":null},\"registration_date\":null,\"address\":{\"zip_code\":null,\"street_name\":null,\"street_number\":null}},\"shipments\":{\"receiver_address\":{\"zip_code\":null,\"state_name\":null,\"city_name\":null,\"street_name\":null,\"street_number\":null,\"floor\":null,\"apartment\":null}}}",
+    "expires": false,
+    "date_created": "2023-11-03T12:43:00.381-04:00",
+    "init_point": "https:\/\/www.mercadopago.com.pe\/checkout\/v1\/redirect?pref_id=1362009890-82d2d1ff-2864-4e3c-9478-d70f40f075df",
+    "sandbox_init_point": "https:\/\/sandbox.mercadopago.com.pe\/checkout\/v1\/redirect?pref_id=1362009890-82d2d1ff-2864-4e3c-9478-d70f40f075df",
+    "metadata": {
+        "basic_settings": {
+            "auto_return": "yes",
+            "binary_mode": "no",
+            "checkbox_checkout_test_mode": "yes",
+            "checkout_credential_prod": "deprecated",
+            "commission_checkbox": "no",
+            "currency_conversion": "no",
+            "enabled": "yes",
+            "ex_payments_amex": "yes",
+            "ex_payments_debmaster": "yes",
+            "ex_payments_debvisa": "yes",
+            "ex_payments_diners": "yes",
+            "ex_payments_master": "yes",
+            "ex_payments_pagoefectivo_atm": "yes",
+            "ex_payments_visa": "yes",
+            "gateway_discount_checkbox": "no",
+            "installments": "2",
+            "method": "redirect"
+        },
+        "billing_address": {
+            "city_name": "CHICLAYO",
+            "country_name": "PE",
+            "state_name": "LAM",
+            "street_name": "AREQUIPA MZ 3K LT. 4",
+            "zip_code": "14000"
+        },
+        "checkout": "smart",
+        "checkout_type": "redirect",
+        "collector": "1362009890",
+        "credits_settings": [],
+        "custom_settings": [],
+        "details": "",
+        "module_version": "6.9.3",
+        "original_notification_url": "http:\/\/wordpress.test\/wc-api\/WC_WooMercadoPago_Basic_Gateway\/?source_news=ipn",
+        "php_version": "8.1.10",
+        "pix_settings": [],
+        "platform": "bo2hnr2ic4p001kbgpt0",
+        "platform_version": "8.2.1",
+        "seller_website": "http:\/\/wordpress.test",
+        "site_id": "mpe",
+        "sponsor_id": 216998692,
+        "test_mode": true,
+        "ticket_settings": [],
+        "user": {
+            "registered_user": "yes",
+            "user_email": "dchumanlluen@gmail.com",
+            "user_registration_date": "2023-11-03T16:42:10.000+00:00"
+        }
+    },
+    "binary_mode": false,
+    "product_id": "BT7OF5FEOO6G01NJK3QG",
+    "redirect_urls": {
+        "success": "",
+        "pending": "",
+        "failure": ""
+    },
+    "site_id": "MPE",
+    "total_amount": "12"
+}
+11-03-2023 @ 17:46:01 - [process_payment]: customer being redirected to Mercado Pago.
+11-03-2023 @ 17:46:01 - [get_transaction]: Preference: {
+    "additional_info": {
+        "ip_address": null,
+        "referral_url": null,
+        "drop_shipping": null,
+        "delivery_promise": null,
+        "contrated_plan": null,
+        "payer": {
+            "first_name": null,
+            "last_name": null,
+            "registration_date": null,
+            "registered_user": null,
+            "device_id": null,
+            "platform_email": null,
+            "register_updated_at": null,
+            "user_email": null,
+            "authentication_type": null,
+            "last_purchase": null,
+            "address": {
+                "street_name": null,
+                "zip_code": null,
+                "city": null,
+                "country": null,
+                "state": null,
+                "number": null,
+                "complement": null,
+                "apartment": null,
+                "floor": null
+            },
+            "phone": {
+                "number": null,
+                "area_code": null
+            },
+            "mobile": {
+                "number": null,
+                "area_code": null
+            },
+            "identification": {
+                "type": null,
+                "number": null
+            }
+        },
+        "seller": {
+            "id": null,
+            "registration_date": null,
+            "business_type": null,
+            "status": null,
+            "store_id": null,
+            "user_platform_mail": null,
+            "email": null,
+            "collector": null,
+            "website": null,
+            "platform_url": null,
+            "referral_url": null,
+            "register_updated_at": null,
+            "document": null,
+            "name": null,
+            "hired_plan": null,
+            "identification": {
+                "type": null,
+                "number": null
+            },
+            "phone": {
+                "number": null,
+                "area_code": null
+            },
+            "address": {
+                "street_name": null,
+                "zip_code": null,
+                "city": null,
+                "country": null,
+                "state": null,
+                "number": null,
+                "complement": null,
+                "apartment": null,
+                "floor": null
+            }
+        },
+        "shipments": {
+            "delivery_promise": null,
+            "drop_shipping": null,
+            "local_pickup": null,
+            "express_shipment": null,
+            "safety": null,
+            "withdrawn": null,
+            "tracking": {
+                "code": null,
+                "status": null
+            },
+            "receiver_address": {
+                "street_name": null,
+                "zip_code": null,
+                "city": null,
+                "country": null,
+                "state": null,
+                "number": null,
+                "complement": null,
+                "apartment": null,
+                "floor": null
+            }
+        }
+    },
+    "auto_return": "approved",
+    "binary_mode": false,
+    "expiration_date_from": null,
+    "expiration_date_to": null,
+    "expires": null,
+    "external_reference": "WC-32",
+    "notification_url": "http:\/\/wordpress.test\/wc-api\/WC_WooMercadoPago_Basic_Gateway\/?source_news=ipn",
+    "purpose": null,
+    "statement_descriptor": "Mercado Pago",
+    "items": [
+        {
+            "id": 15,
+            "title": "Ropa x 1",
+            "description": "Remera-lisa-de-color-negro-en-diferentes-talles",
+            "picture_url": "http:\/\/wordpress.test\/wp-content\/uploads\/2023\/11\/REMERA.png",
+            "category_id": "others",
+            "quantity": 1,
+            "currency_id": "PEN",
+            "unit_price": 0
+        },
+        {
+            "id": null,
+            "title": "Precio fijo por Envio",
+            "description": "Servicio de envío utilizado por la tienda.",
+            "picture_url": null,
+            "category_id": "others",
+            "quantity": 1,
+            "currency_id": null,
+            "unit_price": 12
+        }
+    ],
+    "payment_methods": {
+        "default_payment_method_id": null,
+        "default_installments": null,
+        "installments": 2
+    },
+    "back_urls": {
+        "failure": "http:\/\/wordpress.test\/carrito\/?cancel_order=true&order=wc_order_xJwtoOW9LrA9b&order_id=32&redirect&_wpnonce=e8d061b7e3",
+        "pending": "http:\/\/wordpress.test\/finalizar-compra\/order-received\/32\/?key=wc_order_xJwtoOW9LrA9b",
+        "success": "http:\/\/wordpress.test\/finalizar-compra\/order-received\/32\/?key=wc_order_xJwtoOW9LrA9b"
+    },
+    "payer": {
+        "entity_type": null,
+        "type": null,
+        "id": null,
+        "email": "dchumanlluen@gmail.com",
+        "identification": {
+            "type": null,
+            "number": null
+        },
+        "name": "Dagner",
+        "surname": "Chuman",
+        "operator_id": null,
+        "address": {
+            "street_name": "AREQUIPA MZ 3K LT. 4 \/ CHICLAYO LAM PE",
+            "street_number": null,
+            "neighborhood": null,
+            "city": null,
+            "federal_unit": null,
+            "zip_code": "14000"
+        },
+        "phone": {
+            "area_code": null,
+            "number": "958875176"
+        },
+        "date_created": null
+    },
+    "shipments": {
+        "default_shipping_method": null,
+        "receiver_address": {
+            "zip_code": "14000",
+            "street_name": "AREQUIPA MZ 3K LT. 4  CHICLAYO LAM PE",
+            "city_name": "CHICLAYO",
+            "state_name": "LAM",
+            "street_number": null,
+            "floor": null,
+            "apartment": ""
+        },
+        "cost": null,
+        "dimensions": null,
+        "free_shipping": null,
+        "local_pickup": null,
+        "mode": null
+    },
+    "metadata": {
+        "platform": "bo2hnr2ic4p001kbgpt0",
+        "platform_version": "8.2.1",
+        "module_version": "6.9.3",
+        "php_version": "8.1.10",
+        "site_id": "mpe",
+        "sponsor_id": 216998692,
+        "collector": "1362009890",
+        "test_mode": true,
+        "details": "",
+        "basic_settings": {
+            "enabled": "yes",
+            "currency_conversion": "no",
+            "installments": "2",
+            "method": "redirect",
+            "auto_return": "yes",
+            "binary_mode": "no",
+            "ex_payments_amex": "yes",
+            "ex_payments_master": "yes",
+            "ex_payments_diners": "yes",
+            "ex_payments_visa": "yes",
+            "ex_payments_debmaster": "yes",
+            "ex_payments_debvisa": "yes",
+            "ex_payments_pagoefectivo_atm": "yes",
+            "gateway_discount_checkbox": "no",
+            "commission_checkbox": "no",
+            "checkbox_checkout_test_mode": "yes",
+            "checkout_credential_prod": "deprecated"
+        },
+        "custom_settings": [],
+        "ticket_settings": [],
+        "pix_settings": [],
+        "credits_settings": [],
+        "seller_website": "http:\/\/wordpress.test",
+        "billing_address": {
+            "zip_code": "14000",
+            "street_name": "AREQUIPA MZ 3K LT. 4",
+            "city_name": "CHICLAYO",
+            "state_name": "LAM",
+            "country_name": "PE"
+        },
+        "user": {
+            "registered_user": "yes",
+            "user_email": "dchumanlluen@gmail.com",
+            "user_registration_date": "2023-11-03T16:42:10.000+00:00"
+        },
+        "checkout": "smart",
+        "checkout_type": "redirect"
+    },
+    "date_of_expiration": null,
+    "differential_pricing": null,
+    "marketplace": null,
+    "marketplace_fee": null,
+    "sponsor_id": null
+}
+11-03-2023 @ 17:46:02 - [create_preference]: Created Preference: {
+    "id": "1362009890-6e7d0d3f-aafb-4e4c-9d51-92278c1067b7",
+    "collector_id": 1362009890,
+    "operation_type": "regular_payment",
+    "items": [
+        {
+            "id": "15",
+            "picture_url": "https:\/\/http2.mlstatic.com\/D_NQ_NP_758278-MPE72652025715_112023-F.jpg",
+            "title": "Ropa x 1",
+            "description": "Remera-lisa-de-color-negro-en-diferentes-talles",
+            "category_id": "others",
+            "currency_id": "PEN",
+            "quantity": 1,
+            "unit_price": 0
+        },
+        {
+            "id": "",
+            "title": "Precio fijo por Envio",
+            "description": "Servicio de envío utilizado por la tienda.",
+            "category_id": "others",
+            "currency_id": "PEN",
+            "quantity": 1,
+            "unit_price": 12
+        }
+    ],
+    "payer": {
+        "name": "Dagner",
+        "surname": "Chuman",
+        "email": "dchumanlluen@gmail.com",
+        "phone": {
+            "area_code": "",
+            "number": "958875176"
+        },
+        "identification": {
+            "number": "",
+            "type": ""
+        },
+        "address": {
+            "street_name": "AREQUIPA MZ 3K LT. 4  CHICLAYO LAM PE",
+            "zip_code": "14000"
+        }
+    },
+    "back_urls": {
+        "success": "http:\/\/wordpress.test\/finalizar-compra\/order-received\/32\/?key=wc_order_xJwtoOW9LrA9b",
+        "pending": "http:\/\/wordpress.test\/finalizar-compra\/order-received\/32\/?key=wc_order_xJwtoOW9LrA9b",
+        "failure": "http:\/\/wordpress.test\/carrito\/?cancel_order=true&order=wc_order_xJwtoOW9LrA9b&order_id=32&redirect&_wpnonce=e8d061b7e3"
+    },
+    "auto_return": "approved",
+    "payment_methods": {
+        "excluded_payment_methods": [
+            {
+                "id": ""
+            }
+        ],
+        "excluded_payment_types": [
+            {
+                "id": ""
+            }
+        ],
+        "installments": 2
+    },
+    "client_id": "1951075464327715",
+    "marketplace": "NONE",
+    "marketplace_fee": 0,
+    "shipments": {
+        "receiver_address": {
+            "zip_code": "14000",
+            "street_name": "AREQUIPA MZ 3K LT. 4  CHICLAYO LAM PE",
+            "floor": "",
+            "apartment": "",
+            "city_name": "CHICLAYO",
+            "state_name": "LAM"
+        }
+    },
+    "notification_url": "http:\/\/internal.mercadopago.com\/v1\/bifrost\/merchant-order-notification\/webhook\/production?source_news=ipn&notify_all=false",
+    "statement_descriptor": "Mercado Pago",
+    "external_reference": "WC-32",
+    "additional_info": "{\"items\":null,\"ip_address\":null,\"referral_url\":null,\"drop_shipping\":null,\"delivery_promise\":null,\"contrated_plan\":null,\"payer\":{\"first_name\":null,\"last_name\":null,\"phone\":{\"number\":null,\"area_code\":null},\"registration_date\":null,\"address\":{\"zip_code\":null,\"street_name\":null,\"street_number\":null}},\"shipments\":{\"receiver_address\":{\"zip_code\":null,\"state_name\":null,\"city_name\":null,\"street_name\":null,\"street_number\":null,\"floor\":null,\"apartment\":null}}}",
+    "expires": false,
+    "date_created": "2023-11-03T12:46:00.729-04:00",
+    "init_point": "https:\/\/www.mercadopago.com.pe\/checkout\/v1\/redirect?pref_id=1362009890-6e7d0d3f-aafb-4e4c-9d51-92278c1067b7",
+    "sandbox_init_point": "https:\/\/sandbox.mercadopago.com.pe\/checkout\/v1\/redirect?pref_id=1362009890-6e7d0d3f-aafb-4e4c-9d51-92278c1067b7",
+    "metadata": {
+        "basic_settings": {
+            "auto_return": "yes",
+            "binary_mode": "no",
+            "checkbox_checkout_test_mode": "yes",
+            "checkout_credential_prod": "deprecated",
+            "commission_checkbox": "no",
+            "currency_conversion": "no",
+            "enabled": "yes",
+            "ex_payments_amex": "yes",
+            "ex_payments_debmaster": "yes",
+            "ex_payments_debvisa": "yes",
+            "ex_payments_diners": "yes",
+            "ex_payments_master": "yes",
+            "ex_payments_pagoefectivo_atm": "yes",
+            "ex_payments_visa": "yes",
+            "gateway_discount_checkbox": "no",
+            "installments": "2",
+            "method": "redirect"
+        },
+        "billing_address": {
+            "city_name": "CHICLAYO",
+            "country_name": "PE",
+            "state_name": "LAM",
+            "street_name": "AREQUIPA MZ 3K LT. 4",
+            "zip_code": "14000"
+        },
+        "checkout": "smart",
+        "checkout_type": "redirect",
+        "collector": "1362009890",
+        "credits_settings": [],
+        "custom_settings": [],
+        "details": "",
+        "module_version": "6.9.3",
+        "original_notification_url": "http:\/\/wordpress.test\/wc-api\/WC_WooMercadoPago_Basic_Gateway\/?source_news=ipn",
+        "php_version": "8.1.10",
+        "pix_settings": [],
+        "platform": "bo2hnr2ic4p001kbgpt0",
+        "platform_version": "8.2.1",
+        "seller_website": "http:\/\/wordpress.test",
+        "site_id": "mpe",
+        "sponsor_id": 216998692,
+        "test_mode": true,
+        "ticket_settings": [],
+        "user": {
+            "registered_user": "yes",
+            "user_email": "dchumanlluen@gmail.com",
+            "user_registration_date": "2023-11-03T16:42:10.000+00:00"
+        }
+    },
+    "binary_mode": false,
+    "product_id": "BT7OF5FEOO6G01NJK3QG",
+    "redirect_urls": {
+        "success": "",
+        "pending": "",
+        "failure": ""
+    },
+    "site_id": "MPE",
+    "total_amount": "12"
+}
+11-03-2023 @ 17:51:05 - [process_payment]: customer being redirected to Mercado Pago.
+11-03-2023 @ 17:51:05 - [get_transaction]: Preference: {
+    "additional_info": {
+        "ip_address": null,
+        "referral_url": null,
+        "drop_shipping": null,
+        "delivery_promise": null,
+        "contrated_plan": null,
+        "payer": {
+            "first_name": null,
+            "last_name": null,
+            "registration_date": null,
+            "registered_user": null,
+            "device_id": null,
+            "platform_email": null,
+            "register_updated_at": null,
+            "user_email": null,
+            "authentication_type": null,
+            "last_purchase": null,
+            "address": {
+                "street_name": null,
+                "zip_code": null,
+                "city": null,
+                "country": null,
+                "state": null,
+                "number": null,
+                "complement": null,
+                "apartment": null,
+                "floor": null
+            },
+            "phone": {
+                "number": null,
+                "area_code": null
+            },
+            "mobile": {
+                "number": null,
+                "area_code": null
+            },
+            "identification": {
+                "type": null,
+                "number": null
+            }
+        },
+        "seller": {
+            "id": null,
+            "registration_date": null,
+            "business_type": null,
+            "status": null,
+            "store_id": null,
+            "user_platform_mail": null,
+            "email": null,
+            "collector": null,
+            "website": null,
+            "platform_url": null,
+            "referral_url": null,
+            "register_updated_at": null,
+            "document": null,
+            "name": null,
+            "hired_plan": null,
+            "identification": {
+                "type": null,
+                "number": null
+            },
+            "phone": {
+                "number": null,
+                "area_code": null
+            },
+            "address": {
+                "street_name": null,
+                "zip_code": null,
+                "city": null,
+                "country": null,
+                "state": null,
+                "number": null,
+                "complement": null,
+                "apartment": null,
+                "floor": null
+            }
+        },
+        "shipments": {
+            "delivery_promise": null,
+            "drop_shipping": null,
+            "local_pickup": null,
+            "express_shipment": null,
+            "safety": null,
+            "withdrawn": null,
+            "tracking": {
+                "code": null,
+                "status": null
+            },
+            "receiver_address": {
+                "street_name": null,
+                "zip_code": null,
+                "city": null,
+                "country": null,
+                "state": null,
+                "number": null,
+                "complement": null,
+                "apartment": null,
+                "floor": null
+            }
+        }
+    },
+    "auto_return": "approved",
+    "binary_mode": false,
+    "expiration_date_from": null,
+    "expiration_date_to": null,
+    "expires": null,
+    "external_reference": "WC-32",
+    "notification_url": "http:\/\/wordpress.test\/wc-api\/WC_WooMercadoPago_Basic_Gateway\/?source_news=ipn",
+    "purpose": null,
+    "statement_descriptor": "Mercado Pago",
+    "items": [
+        {
+            "id": 15,
+            "title": "Ropa x 1",
+            "description": "Remera-lisa-de-color-negro-en-diferentes-talles",
+            "picture_url": "http:\/\/wordpress.test\/wp-content\/uploads\/2023\/11\/REMERA.png",
+            "category_id": "others",
+            "quantity": 1,
+            "currency_id": "PEN",
+            "unit_price": 0
+        },
+        {
+            "id": null,
+            "title": "Precio fijo por Envio",
+            "description": "Servicio de envío utilizado por la tienda.",
+            "picture_url": null,
+            "category_id": "others",
+            "quantity": 1,
+            "currency_id": null,
+            "unit_price": 12
+        }
+    ],
+    "payment_methods": {
+        "default_payment_method_id": null,
+        "default_installments": null,
+        "installments": 2
+    },
+    "back_urls": {
+        "failure": "http:\/\/wordpress.test\/carrito\/?cancel_order=true&order=wc_order_xJwtoOW9LrA9b&order_id=32&redirect&_wpnonce=e8d061b7e3",
+        "pending": "http:\/\/wordpress.test\/finalizar-compra\/order-received\/32\/?key=wc_order_xJwtoOW9LrA9b",
+        "success": "http:\/\/wordpress.test\/finalizar-compra\/order-received\/32\/?key=wc_order_xJwtoOW9LrA9b"
+    },
+    "payer": {
+        "entity_type": null,
+        "type": null,
+        "id": null,
+        "email": "dchumanlluen@gmail.com",
+        "identification": {
+            "type": null,
+            "number": null
+        },
+        "name": "Dagner",
+        "surname": "Chuman",
+        "operator_id": null,
+        "address": {
+            "street_name": "AREQUIPA MZ 3K LT. 4 \/ CHICLAYO LAM PE",
+            "street_number": null,
+            "neighborhood": null,
+            "city": null,
+            "federal_unit": null,
+            "zip_code": "14000"
+        },
+        "phone": {
+            "area_code": null,
+            "number": "958875176"
+        },
+        "date_created": null
+    },
+    "shipments": {
+        "default_shipping_method": null,
+        "receiver_address": {
+            "zip_code": "14000",
+            "street_name": "AREQUIPA MZ 3K LT. 4  CHICLAYO LAM PE",
+            "city_name": "CHICLAYO",
+            "state_name": "LAM",
+            "street_number": null,
+            "floor": null,
+            "apartment": ""
+        },
+        "cost": null,
+        "dimensions": null,
+        "free_shipping": null,
+        "local_pickup": null,
+        "mode": null
+    },
+    "metadata": {
+        "platform": "bo2hnr2ic4p001kbgpt0",
+        "platform_version": "8.2.1",
+        "module_version": "6.9.3",
+        "php_version": "8.1.10",
+        "site_id": "mpe",
+        "sponsor_id": 216998692,
+        "collector": "1362009890",
+        "test_mode": true,
+        "details": "",
+        "basic_settings": {
+            "enabled": "yes",
+            "currency_conversion": "no",
+            "installments": "2",
+            "method": "redirect",
+            "auto_return": "yes",
+            "binary_mode": "no",
+            "ex_payments_amex": "yes",
+            "ex_payments_master": "yes",
+            "ex_payments_diners": "yes",
+            "ex_payments_visa": "yes",
+            "ex_payments_debmaster": "yes",
+            "ex_payments_debvisa": "yes",
+            "ex_payments_pagoefectivo_atm": "yes",
+            "gateway_discount_checkbox": "no",
+            "commission_checkbox": "no",
+            "checkbox_checkout_test_mode": "yes",
+            "checkout_credential_prod": "deprecated"
+        },
+        "custom_settings": [],
+        "ticket_settings": [],
+        "pix_settings": [],
+        "credits_settings": [],
+        "seller_website": "http:\/\/wordpress.test",
+        "billing_address": {
+            "zip_code": "14000",
+            "street_name": "AREQUIPA MZ 3K LT. 4",
+            "city_name": "CHICLAYO",
+            "state_name": "LAM",
+            "country_name": "PE"
+        },
+        "user": {
+            "registered_user": "yes",
+            "user_email": "dchumanlluen@gmail.com",
+            "user_registration_date": "2023-11-03T16:42:10.000+00:00"
+        },
+        "checkout": "smart",
+        "checkout_type": "redirect"
+    },
+    "date_of_expiration": null,
+    "differential_pricing": null,
+    "marketplace": null,
+    "marketplace_fee": null,
+    "sponsor_id": null
+}
+11-03-2023 @ 17:51:06 - [create_preference]: Created Preference: {
+    "id": "1362009890-3b215e86-243d-44d0-9e56-c9202ac0f81b",
+    "collector_id": 1362009890,
+    "operation_type": "regular_payment",
+    "items": [
+        {
+            "id": "15",
+            "picture_url": "https:\/\/http2.mlstatic.com\/D_NQ_NP_758278-MPE72652025715_112023-F.jpg",
+            "title": "Ropa x 1",
+            "description": "Remera-lisa-de-color-negro-en-diferentes-talles",
+            "category_id": "others",
+            "currency_id": "PEN",
+            "quantity": 1,
+            "unit_price": 0
+        },
+        {
+            "id": "",
+            "title": "Precio fijo por Envio",
+            "description": "Servicio de envío utilizado por la tienda.",
+            "category_id": "others",
+            "currency_id": "PEN",
+            "quantity": 1,
+            "unit_price": 12
+        }
+    ],
+    "payer": {
+        "name": "Dagner",
+        "surname": "Chuman",
+        "email": "dchumanlluen@gmail.com",
+        "phone": {
+            "area_code": "",
+            "number": "958875176"
+        },
+        "identification": {
+            "number": "",
+            "type": ""
+        },
+        "address": {
+            "street_name": "AREQUIPA MZ 3K LT. 4  CHICLAYO LAM PE",
+            "zip_code": "14000"
+        }
+    },
+    "back_urls": {
+        "success": "http:\/\/wordpress.test\/finalizar-compra\/order-received\/32\/?key=wc_order_xJwtoOW9LrA9b",
+        "pending": "http:\/\/wordpress.test\/finalizar-compra\/order-received\/32\/?key=wc_order_xJwtoOW9LrA9b",
+        "failure": "http:\/\/wordpress.test\/carrito\/?cancel_order=true&order=wc_order_xJwtoOW9LrA9b&order_id=32&redirect&_wpnonce=e8d061b7e3"
+    },
+    "auto_return": "approved",
+    "payment_methods": {
+        "excluded_payment_methods": [
+            {
+                "id": ""
+            }
+        ],
+        "excluded_payment_types": [
+            {
+                "id": ""
+            }
+        ],
+        "installments": 2
+    },
+    "client_id": "1951075464327715",
+    "marketplace": "NONE",
+    "marketplace_fee": 0,
+    "shipments": {
+        "receiver_address": {
+            "zip_code": "14000",
+            "street_name": "AREQUIPA MZ 3K LT. 4  CHICLAYO LAM PE",
+            "floor": "",
+            "apartment": "",
+            "city_name": "CHICLAYO",
+            "state_name": "LAM"
+        }
+    },
+    "notification_url": "http:\/\/internal.mercadopago.com\/v1\/bifrost\/merchant-order-notification\/webhook\/production?source_news=ipn&notify_all=false",
+    "statement_descriptor": "Mercado Pago",
+    "external_reference": "WC-32",
+    "additional_info": "{\"items\":null,\"ip_address\":null,\"referral_url\":null,\"drop_shipping\":null,\"delivery_promise\":null,\"contrated_plan\":null,\"payer\":{\"first_name\":null,\"last_name\":null,\"phone\":{\"number\":null,\"area_code\":null},\"registration_date\":null,\"address\":{\"zip_code\":null,\"street_name\":null,\"street_number\":null}},\"shipments\":{\"receiver_address\":{\"zip_code\":null,\"state_name\":null,\"city_name\":null,\"street_name\":null,\"street_number\":null,\"floor\":null,\"apartment\":null}}}",
+    "expires": false,
+    "date_created": "2023-11-03T12:51:05.156-04:00",
+    "init_point": "https:\/\/www.mercadopago.com.pe\/checkout\/v1\/redirect?pref_id=1362009890-3b215e86-243d-44d0-9e56-c9202ac0f81b",
+    "sandbox_init_point": "https:\/\/sandbox.mercadopago.com.pe\/checkout\/v1\/redirect?pref_id=1362009890-3b215e86-243d-44d0-9e56-c9202ac0f81b",
+    "metadata": {
+        "basic_settings": {
+            "auto_return": "yes",
+            "binary_mode": "no",
+            "checkbox_checkout_test_mode": "yes",
+            "checkout_credential_prod": "deprecated",
+            "commission_checkbox": "no",
+            "currency_conversion": "no",
+            "enabled": "yes",
+            "ex_payments_amex": "yes",
+            "ex_payments_debmaster": "yes",
+            "ex_payments_debvisa": "yes",
+            "ex_payments_diners": "yes",
+            "ex_payments_master": "yes",
+            "ex_payments_pagoefectivo_atm": "yes",
+            "ex_payments_visa": "yes",
+            "gateway_discount_checkbox": "no",
+            "installments": "2",
+            "method": "redirect"
+        },
+        "billing_address": {
+            "city_name": "CHICLAYO",
+            "country_name": "PE",
+            "state_name": "LAM",
+            "street_name": "AREQUIPA MZ 3K LT. 4",
+            "zip_code": "14000"
+        },
+        "checkout": "smart",
+        "checkout_type": "redirect",
+        "collector": "1362009890",
+        "credits_settings": [],
+        "custom_settings": [],
+        "details": "",
+        "module_version": "6.9.3",
+        "original_notification_url": "http:\/\/wordpress.test\/wc-api\/WC_WooMercadoPago_Basic_Gateway\/?source_news=ipn",
+        "php_version": "8.1.10",
+        "pix_settings": [],
+        "platform": "bo2hnr2ic4p001kbgpt0",
+        "platform_version": "8.2.1",
+        "seller_website": "http:\/\/wordpress.test",
+        "site_id": "mpe",
+        "sponsor_id": 216998692,
+        "test_mode": true,
+        "ticket_settings": [],
+        "user": {
+            "registered_user": "yes",
+            "user_email": "dchumanlluen@gmail.com",
+            "user_registration_date": "2023-11-03T16:42:10.000+00:00"
+        }
+    },
+    "binary_mode": false,
+    "product_id": "BT7OF5FEOO6G01NJK3QG",
+    "redirect_urls": {
+        "success": "",
+        "pending": "",
+        "failure": ""
+    },
+    "site_id": "MPE",
+    "total_amount": "12"
+}
